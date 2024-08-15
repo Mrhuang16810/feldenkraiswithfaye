@@ -1,0 +1,94 @@
+main .index-cover{
+    height: 260px;
+    background-image: url("images/indexBig.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section .qrCode{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(243,243,243);
+}
+main section .qrCode{
+    display: flex;
+    align-items: center;
+}
+main section .qrCode .qrCodeTitle p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color: rgb(128,128,128);
+}
+main section .qrCode .qrCodeTitle hr{
+    height: 3px;
+    border: none;
+    background-color: rgb(188,143,143);
+    width: 70px;
+}
+main section .qrCode span{
+    display: block;
+    font-size: 8px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(128,128,128);
+    letter-spacing: 2px;
+}
+@media(min-width:576px){
+    main .index-cover{
+        height: 360px;
+    }
+    main section .qrCode .qrCodeTitle{
+        display: flex;
+        justify-content: space-around;
+    }
+    main section .qrCode .qrCodeTitle p{
+        font-size: 16px;
+        font-weight: 900;
+        margin-top: 5px;
+        border-right: 3px solid rgb(188,143,143);
+        display: flex;
+        align-items: center;
+        padding-right: 0.5em;
+    }
+    main section .qrCode .qrCodeTitle hr{
+        display: none;
+    }
+    main section .qrCode .qrCodeTitle span{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+}
+@media(min-width:768px){
+    main .index-cover{
+        height: 470px;
+    }
+    main section .qrCode .qrCodeTitle p{
+        font-size: 16px;
+        border-right: 3px solid rgb(188,143,143);
+        padding-right: 1.5em;
+    }
+    main section .qrCode .qrCodeTitle span{
+        font-size: 11px;
+        letter-spacing: 4px;
+        line-height: 18px;
+    }
+}
+@media(min-width:992px){
+    main .index-cover{
+        height: 610px;
+    }
+    main section .qrCode .qrCodeTitle p{
+        font-size: 18px;
+        border-right: 3px solid rgb(188,143,143);
+        padding-right: 2.5em;
+        letter-spacing: 5px;
+    }
+    main section .qrCode .qrCodeTitle span{
+        font-size: 13px;
+        letter-spacing: 5px;
+        line-height: 20px;
+    }
+}

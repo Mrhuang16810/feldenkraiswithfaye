@@ -1,0 +1,92 @@
+footer{
+    background-color: rgb(188,143,143);
+    margin-top: 5px;
+}
+footer .col-phone-100 .col-phone-70{
+    text-align: end;
+}
+footer .col-phone-100 .col-phone-70 span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 10px;
+    margin: 0;
+    border-bottom: 3px dashed #fff;
+    padding-bottom: 2px;
+    margin-right: 10px;
+}
+footer .whiteSign{
+    margin-top: 10px;
+    width: 70%;
+}
+footer .col-phone-100 .col-phone-30 a{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+footer .col-phone-100 .col-phone-30 a img{
+    width: 100%;
+}
+@media(min-width:576px){
+    footer{
+        padding-bottom: 10px;
+    }
+    footer .whiteSign{
+        display: none;
+    }
+    footer .col-phone2-100{
+        display: flex;
+    }
+    footer .col-phone2-100 .col-phone2-40 a{
+        width: 30px;
+        height: 30px;
+        margin-top: 12px;
+        margin-left: 25px;
+    }
+    footer .col-phone2-100 .col-phone2-60 span{
+        font-size: 12px;
+        margin-right: 15px;
+    }
+}
+@media(min-width:768px){
+    footer{
+        padding-bottom: 10px;
+    }
+    footer .whiteSign{
+        display: none;
+    }
+    footer .col-tablet-100{
+        display: flex;
+    }
+    footer .col-tablet-100 .col-tablet-40 a{
+        width: 45px;
+        height: 45px;
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+    footer .col-tablet-100 .col-tablet-60 span{
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+@media(min-width:992px){
+    footer{
+        padding-bottom: 10px;
+    }
+    footer .whiteSign{
+        display: none;
+    }
+    footer .col-tablet-100{
+        display: flex;
+    }
+    footer .col-tablet-100 .col-tablet-40 a{
+        width: 52px;
+        height: 52px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+    footer .col-tablet-100 .col-tablet-60 span{
+        font-size: 18px;
+        line-height: 36px;
+    }
+}

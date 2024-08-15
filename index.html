@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="index-cover-qrCode.css">
+    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>和非・費登奎斯瑜伽</title>
+    <script src="https://kit.fontawesome.com/6a4f655860.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                <a href="index.html">和非・費登奎斯式瑜伽</a>
+            </h1>
+            <ul class="nav-ul">
+                <li><a href="introduce.html">課程介紹</a></li>
+                <li><a href="share.html">旅程分享</a></li>
+                <li><a href="aboutMe.html">關於我</a></li>
+                <li><a href="classOrder.html">課程資訊／報名</a></li>
+                <li><a href="index.html" class="thisPageColor">諮詢／預約</a></li>
+            </ul>
+            <button type="button" class="nav-btn"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+    </header>
+    <main>
+        <!-- index-cover -->
+        <section class="row">
+            <div class="col-phone-100 index-cover"></div>
+            <div class="col-phone-100 qrCode">
+                <img src="images/lineQRcode.png" class="col-phone-20 col-phone2-15 col-tablet-10" alt="lineQRcode">
+                <div class="col-phone-60 col-phone2-70 col-tablet-80 qrCodeTitle">
+                    <p>預約體驗／課程洽詢</p>
+                    <hr>
+                    <div>
+                        <span>快加入 Ｆａｙｅ老師 的Ｌｉｎｅ</span>
+                        <span>立即體驗 費登奎斯的 方法吧～</span>
+                        <span>ＬｉｎｅＩＤ：dolessfaye</span>
+                    </div>
+                    
+                </div>
+                <img src="images/lineQRcode.png" class="col-phone-20 col-phone2-15 col-tablet-10" alt="lineQRcode">
+            </div>
+        </section>
+        <!-- map -->
+        <section class="row mapContainer">
+            <div class="col-phone-100 mapTitle">
+                <p>教室地理位置</p>
+                <hr>
+            </div>
+            <div class="col-desktop-100 mapTabletContainer mapDesktopContainer">
+                <div class="col-phone-60 col-tablet-100 col-desktop-40 mapImg"></div>
+                <div class="col-phone-40 col-tablet-100 col-desktop-60 mapContent">
+                    <div class="col-desktop-100">
+                        <div class="col-tablet-25 col-desktop-100 mapContentSmallpBox"><p>｜地址｜</p><p class="mapContentSmallp">１１６６９台北市文山區景興路２７５巷１號（Google Map搜尋：和非‧費登奎斯）</p></div>
+                        <div class="col-tablet-25 col-desktop-100 mapContentSmallpBox"><p>｜捷運｜</p><p class="mapContentSmallp">松山新店線-景美站1號出口（步行５分鐘，行走穿越景美夜市，隔壁是東方不敗麻將專賣店）</p></div>    
+                    </div>
+                    <div class="col-desktop-100">
+                        <div class="col-tablet-25 col-desktop-33 mapContentSmallpBox"><p>｜開車｜</p><p class="mapContentSmallp">景興圖書館停車場出口（步行１分鐘）或路邊停車格</p></div>
+                        <div class="col-tablet-25 col-desktop-67 mapContentSmallpBox"><p>｜公車｜</p><p class="mapContentSmallp">景美國小（景興）２５１、２５３、６６０、５０５</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="row">
+        <div class="footerContact col-phone-100 col-phone2-100 col-tablet-100">
+            <div class="col-phone-30 col-phone2-40 col-tablet-40">
+                <a href="https://www.facebook.com/feldenkraiswithfayelin" class="col-phone-33"><img src="images/fbIcon.png" alt="fbIcon"></a>
+                <a href="https://www.instagram.com/feldenkraiswithfaye?igsh=ZnFveWNoYXF5NTBs" class="col-phone-33"><img src="images/igIcon.png" alt="igIcon"></a>
+                <a href="https://line.me/ti/p/-B73FCuMw-" class="col-phone-33"><img src="images/lineIcon.png" alt="lineIcon"></a>
+            </div>
+            <div class="col-phone-70 col-phone2-60 col-tablet-60">
+                <span>Email／fayelin0222@gmail.com</span>
+                <br>
+                <span>TEL／０９１９－４１３－３１３</span>
+                <br>
+                <span>Ｔｕｅｓ ～ Ｓａｔ ／ １０：００～ ２１：００</span>
+            </div>
+        </div>
+        <img src="images/草寫簽名（白字）.png" class="whiteSign" alt="草寫簽名（白字）" class="whiteSign">
+    </footer>
+    <script>
+        $(function(){
+            $(".nav-btn").click(function(){
+                $(".nav-ul").slideToggle(1000)
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1024px;
+    margin: auto;
+}
+.row{
+    display: table;
+    width: 100%;
+}
+/* 手機420 */
+.col-phone-100{
+    width: 100%;
+    float: left;
+}
+.col-phone-75{
+    width: 75%;
+    float: left;
+}
+.col-phone-70{
+    width: 70%;
+    float: left;
+}
+.col-phone-67{
+    width: 66.667%;
+    float: left;
+}
+.col-phone-60{
+    width: 60%;
+    float: left;
+}
+.col-phone-50{
+    width: 50%;
+    float: left;
+}
+.col-phone-40{
+    width: 40%;
+    float: left;
+}
+.col-phone-33{
+    width: 33.333%;
+    float: left;
+}
+.col-phone-30{
+    width: 30%;
+    float: left;
+}
+.col-phone-25{
+    width: 25%;
+    float: left;
+}
+.col-phone-20{
+    width: 20%;
+    float: left;
+}
+.col-phone-15{
+    width: 15%;
+    float: left;
+}
+/* 手機2 */
+@media(min-width:576px){
+    .col-phone2-100{
+        width: 100%;
+        float: left;
+    }
+    .col-phone2-75{
+        width: 75%;
+        float: left;
+    }
+    .col-phone2-70{
+        width: 70%;
+        float: left;
+    }
+    .col-phone2-67{
+        width: 66.667%;
+        float: left;
+    }
+    .col-phone2-60{
+        width: 60%;
+        float: left;
+    }
+    .col-phone2-50{
+        width: 50%;
+        float: left;
+    }
+    .col-phone2-40{
+        width: 40%;
+        float: left;
+    }
+    .col-phone2-33{
+        width: 33.333%;
+        float: left;
+    }
+    .col-phone2-25{
+        width: 25%;
+        float: left;
+    }
+    .col-phone2-20{
+        width: 20%;
+        float: left;
+    }
+    .col-phone2-15{
+        width: 15%;
+        float: left;
+    }
+}
+/* 平板 */
+@media(min-width:768px){
+    .col-tablet-100{
+        width: 100%;
+        float: left;
+    }
+    .col-tablet-80{
+        width: 80%;
+        float: left;
+    }
+    .col-tablet-75{
+        width: 75%;
+        float: left;
+    }
+    .col-tablet-67{
+        width: 66.667%;
+        float: left;
+    }
+    .col-tablet-60{
+        width: 60%;
+        float: left;
+    }
+    .col-tablet-50{
+        width: 50%;
+        float: left;
+    }
+    .col-tablet-40{
+        width: 40%;
+        float: left;
+    }
+    .col-tablet-33{
+        width: 33.333%;
+        float: left;
+    }
+    .col-tablet-25{
+        width: 25%;
+        float: left;
+    }
+    .col-tablet-10{
+        width: 10%;
+        float: left;
+    }
+}
+/* 桌機 */
+@media(min-width:992px){
+    .col-desktop-100{
+        width: 100%;
+        float: left;
+    }
+    .col-desktop-75{
+        width: 75%;
+        float: left;
+    }
+    .col-desktop-67{
+        width: 66.667%;
+        float: left;
+    }
+    .col-desktop-60{
+        width: 60%;
+        float: left;
+    }
+    .col-desktop-50{
+        width: 50%;
+        float: left;
+    }
+    .col-desktop-40{
+        width: 40%;
+        float: left;
+    }
+    .col-desktop-33{
+        width: 33.333%;
+        float: left;
+    }
+    .col-desktop-25{
+        width: 25%;
+        float: left;
+    }
+}

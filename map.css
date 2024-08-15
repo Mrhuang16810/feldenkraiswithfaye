@@ -1,0 +1,113 @@
+main .mapContainer{
+    background-color: rgb(243,243,243);
+    padding-top: 5px;
+}
+main .mapContainer .mapTitle p{
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: rgb(128,128,128);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+main .mapContainer .mapTitle hr{
+    height: 3px;
+    border: none;
+    background-color: rgb(188,143,143);
+    width: 50px;
+}
+main .mapContainer .mapImg{
+    height: 250px;
+    background-image: url("images/教室路線圖.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .mapContainer .mapContent p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-left: 5px;
+    font-size: 10px;
+    color: rgb(128,128,128);
+}
+main .mapContainer .mapContent .mapContentSmallp{
+    font-size: 8px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 5px;
+    margin-bottom: 12px;
+}
+@media(min-width:576px){
+    main .mapContainer .mapTitle p{
+        font-size: 16px;
+    }
+    main .mapContainer .mapTitle hr{
+        width: 55px;
+    }
+    main .mapContainer .mapImg{
+        height: 315px;
+    }
+    main .mapContainer .mapContent p{
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    main .mapContainer .mapContent .mapContentSmallp{
+        font-size: 10px;
+        font-weight: 500;
+        padding-left: 50px;
+        padding-right: 15px;
+    }
+}
+@media(min-width:768px){
+    main .mapContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .mapContainer .mapTitle p{
+        font-size: 18px;
+    }
+    main .mapContainer .mapTitle hr{
+        width: 65px;
+        height: 4px;
+    }
+    main .mapContainer .mapDesktopContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .mapContainer .mapImg{
+        width: 50%;
+        height: 350px;
+        margin-top: 5px;
+    }
+    main .mapContainer .mapContent{
+        margin-top: 10px;
+    }
+}
+@media(min-width:992px){
+    main .mapContainer .mapImg{
+        width: 40%;
+        height: 280px;
+        margin-top: 5px;
+    }
+    main .mapContainer .mapDesktopContainer{
+        flex-direction: row;
+        justify-content: center;
+    }
+    main .mapContainer .mapContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    main .mapContainer .mapContent p{
+        font-size: 14px;
+    }
+    main .mapContainer .mapContent .mapContentSmallp{
+        font-size: 11px;
+    }
+}

@@ -1,5 +1,5 @@
 main .index-cover{
-    height: 230px;
+    height: 200px;
     background-image: url("images/indexBig.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ main section .qrCode{
     align-items: center;
 }
 main section .qrCode .qrCodeTitle p{
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     font-weight: 900;
     letter-spacing: 3px;
@@ -23,18 +23,33 @@ main section .qrCode .qrCodeTitle p{
     color: rgb(128,128,128);
 }
 main section .qrCode .qrCodeTitle hr{
-    height: 3px;
+    height: 2px;
     border: none;
     background-color: rgb(188,143,143);
-    width: 60px;
+    width: 50px;
 }
 main section .qrCode span{
     display: block;
-    font-size: 7px;
+    font-size: 6px;
     text-align: center;
     font-weight: 900;
     color: rgb(128,128,128);
     letter-spacing: 2px;
+}
+@media(min-width:390px){
+    main .index-cover{
+        height: 230px;
+    }
+    main section .qrCode .qrCodeTitle p{
+        font-size: 12px;
+    }
+    main section .qrCode .qrCodeTitle hr{
+        height: 3px;
+        width: 60px;
+    }
+    main section .qrCode span{
+        font-size: 7px;
+    }
 }
 @media(min-width:420px){
     main .index-cover{

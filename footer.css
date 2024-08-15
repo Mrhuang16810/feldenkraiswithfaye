@@ -9,20 +9,36 @@ footer .col-phone-100 .col-phone-70{
 footer .col-phone-100 .col-phone-70 span{
     color: #fff;
     font-weight: 500;
-    font-size: 8px;
+    font-size: 6px;
     margin: 0;
-    border-bottom: 3px dashed #fff;
+    border-bottom: 2px dashed #fff;
     padding-bottom: 2px;
     margin-right: 10px;
 }
 footer .col-phone-100 .col-phone-30 a{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     margin-top: 11px;
-    margin-left: 18px;
+    margin-left: 15px;
 }
 footer .col-phone-100 .col-phone-30 a img{
     width: 100%;
+}
+@media(min-width:390px){
+    footer .col-phone-100 .col-phone-70 span{
+        font-size: 8px;
+        margin: 0;
+        margin-right: 10px;
+    }
+    footer .col-phone-100 .col-phone-30 a{
+        width: 20px;
+        height: 20px;
+        margin-top: 11px;
+        margin-left: 18px;
+    }
+    footer .col-phone-100 .col-phone-30 a img{
+        width: 100%;
+    }
 }
 @media(min-width:420px){
     footer .col-phone-100 .col-phone-70 span{
@@ -50,6 +66,7 @@ footer .col-phone-100 .col-phone-30 a img{
     footer .col-phone2-100 .col-phone2-60 span{
         font-size: 12px;
         margin-right: 15px;
+        border-bottom: 3px dashed #fff;
     }
 }
 @media(min-width:768px){

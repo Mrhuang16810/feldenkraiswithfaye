@@ -3,7 +3,7 @@ main .mapContainer{
     padding-top: 5px;
 }
 main .mapContainer .mapTitle p{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 900;
     letter-spacing: 3px;
     color: rgb(128,128,128);
@@ -12,13 +12,13 @@ main .mapContainer .mapTitle p{
     margin-bottom: 0;
 }
 main .mapContainer .mapTitle hr{
-    height: 3px;
+    height: 2px;
     border: none;
     background-color: rgb(188,143,143);
-    width: 40px;
+    width: 30px;
 }
 main .mapContainer .mapImg{
-    height: 230px;
+    height: 200px;
     background-image: url("images/教室路線圖.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,15 +29,33 @@ main .mapContainer .mapContent p{
     font-weight: 900;
     letter-spacing: 2px;
     padding-left: 5px;
-    font-size: 9px;
+    font-size: 7px;
     color: rgb(128,128,128);
 }
 main .mapContainer .mapContent .mapContentSmallp{
-    font-size: 7px;
+    font-size: 6px;
     font-weight: 600;
     padding-left: 25px;
     padding-right: 5px;
     margin-bottom: 12px;
+}
+@media(min-width:390px){
+    main .mapContainer .mapTitle p{
+        font-size: 12px;
+    }
+    main .mapContainer .mapTitle hr{
+        height: 3px;
+        width: 40px;
+    }
+    main .mapContainer .mapImg{
+        height: 230px;
+    }
+    main .mapContainer .mapContent p{
+        font-size: 9px;
+    }
+    main .mapContainer .mapContent .mapContentSmallp{
+        font-size: 7px;
+    }
 }
 @media(min-width:420px){
     main .mapContainer .mapTitle p{

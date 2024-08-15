@@ -14,10 +14,6 @@ footer .col-phone-100 .col-phone-70 span{
     padding-bottom: 2px;
     margin-right: 10px;
 }
-footer .whiteSign{
-    margin-top: 10px;
-    width: 70%;
-}
 footer .col-phone-100 .col-phone-30 a{
     width: 20px;
     height: 20px;
@@ -30,9 +26,6 @@ footer .col-phone-100 .col-phone-30 a img{
 @media(min-width:576px){
     footer{
         padding-bottom: 10px;
-    }
-    footer .whiteSign{
-        display: none;
     }
     footer .col-phone2-100{
         display: flex;
@@ -52,9 +45,6 @@ footer .col-phone-100 .col-phone-30 a img{
     footer{
         padding-bottom: 10px;
     }
-    footer .whiteSign{
-        display: none;
-    }
     footer .col-tablet-100{
         display: flex;
     }
@@ -72,9 +62,6 @@ footer .col-phone-100 .col-phone-30 a img{
 @media(min-width:992px){
     footer{
         padding-bottom: 10px;
-    }
-    footer .whiteSign{
-        display: none;
     }
     footer .col-tablet-100{
         display: flex;

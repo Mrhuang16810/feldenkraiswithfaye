@@ -1,3 +1,6 @@
+main .classOrderSectionOne{
+    margin-top: 30px;
+}
 main .classOrderSectionOne,main .classOrderSectionTwo,main .classOrderSectionThree{
     background-color: rgb(243,243,243);
     padding-bottom: 3px;
@@ -237,6 +240,9 @@ main .classOrderSectionThree .noticeP{
     }
 }
 @media(min-width:420px){
+    main .classOrderSectionOne{
+        margin-top: 40px;
+    }
     main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
         font-size: 15px;
     }
@@ -291,6 +297,9 @@ main .classOrderSectionThree .noticeP{
     }
 }
 @media(min-width:576px){
+    main .classOrderSectionOne{
+        margin-top: 54px;
+    }
     main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
         font-size: 16px;
     }
@@ -365,6 +374,9 @@ main .classOrderSectionThree .noticeP{
     }
 }
 @media(min-width:768px){
+    main .classOrderSectionOne{
+        margin-top: 60px;
+    }
     main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
         font-size: 18px;
         letter-spacing: 5px;
@@ -444,6 +456,9 @@ main .classOrderSectionThree .noticeP{
     }
 }
 @media(min-width:992px){
+    main .classOrderSectionOne{
+        margin-top: 64px;
+    }
     main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
         font-size: 22px;
         letter-spacing: 5px;

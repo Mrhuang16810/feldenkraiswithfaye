@@ -1,543 +1,543 @@
-main{
+.classOrderMain{
     padding-top: 30px;
 }
-main .classOrderSectionOne,main .classOrderSectionTwo,main .classOrderSectionThree{
+.classOrderMain .classOrderSectionOne,.classOrderMain .classOrderSectionTwo,.classOrderMain .classOrderSectionThree{
     background-color: rgb(243,243,243);
     padding-bottom: 3px;
     padding-top: 3px;
 }
-main .classOrderSectionTwo,main .classOrderSectionThree{
+.classOrderMain .classOrderSectionTwo,.classOrderMain .classOrderSectionThree{
     margin-top: 5px;
 }
-main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
+.classOrderMain .classOrderSectionOne h1,.classOrderMain .classOrderSectionTwo h1,.classOrderMain .classOrderSectionThree h1{
     font-size: 12px;
     text-align: center;
     font-weight: 900;
     letter-spacing: 2px;
     margin-bottom: 0;
 }
-main .classOrderSectionOne hr{
+.classOrderMain .classOrderSectionOne hr{
     height: 2px;
     border: none;
     background-color: rgb(188,143,143);
     width: 30px;
     margin-top: 5px;
 }
-main .classOrderSectionOne .sectionOneContent{
+.classOrderMain .classOrderSectionOne .sectionOneContent{
     padding-left: 15px;
 }
-main .classOrderSectionOne .sectionOneContent span{
+.classOrderMain .classOrderSectionOne .sectionOneContent span{
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 1px;
     color: rgb(188,143,143);
 }
-main .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
+.classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
     padding-left: 40px;
 }
-main .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
+.classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
     font-size: 9px;
     font-weight: 900;
     letter-spacing: 1px;
 }
-main .classOrderSectionOne .sectionOneContent .sectionOneContentInside hr{
+.classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside hr{
     background-color: transparent;
 }
-main .classOrderSectionOne .sectionOneContent .sectionOneContentInside p a{
+.classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p a{
     text-decoration: none;
     color: rgb(188,143,143);
 }
-main .classOrderSectionTwo{
+.classOrderMain .classOrderSectionTwo{
     display: flex;
     flex-direction: column;
 }
-main .classOrderSectionTwo .imgBox{
+.classOrderMain .classOrderSectionTwo .imgBox{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-main .classOrderSectionTwo img{
+.classOrderMain .classOrderSectionTwo img{
     width: 18%;
     margin-top: 3px;
 }
-main .classOrderSectionTwo p{
+.classOrderMain .classOrderSectionTwo p{
     font-size: 8px;
     margin-top: 3px;
     margin-bottom: 3px;
     font-weight: 900;
 }
-main .classOrderSectionTwo p a{
+.classOrderMain .classOrderSectionTwo p a{
     text-decoration: none;
     color: rgb(188,143,143);
 }
-main .classOrderSectionTwo hr{
+.classOrderMain .classOrderSectionTwo hr{
     width: 40px;
     height: 3px;
     border: none;
     background-color: rgb(188, 143, 143);
     margin-top: 3px;
 }
-main .classOrderSectionTwo table{
+.classOrderMain .classOrderSectionTwo table{
     border-collapse: collapse;
     border: 2px solid rgb(188,143,143);
     text-align: center;
     font-weight: 900;
 }
-main .classOrderSectionTwo table tr td{
+.classOrderMain .classOrderSectionTwo table tr td{
     border: 1px solid rgb(188,143,143);
     padding: 2px;
 }
-main .classOrderSectionTwo table tr .dataAndTime{
+.classOrderMain .classOrderSectionTwo table tr .dataAndTime{
     color: rgb(188,143,143);
     font-size: 8px;
     letter-spacing: 2px;
 }
-main .classOrderSectionTwo table tr .dataContent{
+.classOrderMain .classOrderSectionTwo table tr .dataContent{
     font-size: 6px;
     letter-spacing: 2px;
 }
-main .classOrderSectionTwo table tr .dataContentColor{
+.classOrderMain .classOrderSectionTwo table tr .dataContentColor{
     background-color: rgb(188, 143, 143);
     color: #fff;
 }
-main .classOrderSectionTwo .personal{
+.classOrderMain .classOrderSectionTwo .personal{
     display: flex;
     flex-direction: column;
     padding-left: 15px;
 }
-main .classOrderSectionTwo .personal p{
+.classOrderMain .classOrderSectionTwo .personal p{
     font-size: 10px;
     font-weight: 900;
 }
-main .classOrderSectionTwo .personal span{
+.classOrderMain .classOrderSectionTwo .personal span{
     font-size: 9px;
     padding-left: 30px;
     padding-right: 10px;
     font-weight: 900;
     letter-spacing: 2px;
 }
-main .classOrderSectionTwo .orderTime{
+.classOrderMain .classOrderSectionTwo .orderTime{
     display: flex;
     flex-direction: column;
     padding-left: 40px;
 }
-main .classOrderSectionTwo .orderTime p{
+.classOrderMain .classOrderSectionTwo .orderTime p{
     font-size: 10px;
     font-weight: 900;
 }
-main .classOrderSectionTwo .orderTime span{
+.classOrderMain .classOrderSectionTwo .orderTime span{
     font-size: 9px;
     font-weight: 900;
     padding-left: 20px;
 }
-main .classOrderSectionThree{
+.classOrderMain .classOrderSectionThree{
     padding-left: 10px;
     padding-right: 10px;
 }
-main .classOrderSectionThree hr{
+.classOrderMain .classOrderSectionThree hr{
     height: 3px;
     border: none;
     background-color: rgb(188,143,143);
     width: 30px;
     margin-top: 4px;
 }
-main .classOrderSectionThree p{
+.classOrderMain .classOrderSectionThree p{
     font-size: 10px;
     font-weight: 900;
     letter-spacing: 2px;
     margin-bottom: 0;
 }
-main .classOrderSectionThree h2{
+.classOrderMain .classOrderSectionThree h2{
     font-size: 12px;
     color: rgb(188,143,143);
     letter-spacing: 2px;
     
 }
-main .classOrderSectionThree .contentBox{
+.classOrderMain .classOrderSectionThree .contentBox{
     padding-left: 30px;
 }
-main .classOrderSectionThree span{
+.classOrderMain .classOrderSectionThree span{
     font-size: 8px;
     font-weight: 900;
     letter-spacing: 2px;
 }
-main .classOrderSectionThree .noticeP{
+.classOrderMain .classOrderSectionThree .noticeP{
     color: rgb(128,128,128);
     font-size: 8px;
     text-align: center;
 }
 @media(min-width:390px){
-    main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
+    .classOrderMain .classOrderSectionOne h1,.classOrderMain .classOrderSectionTwo h1,.classOrderMain .classOrderSectionThree h1{
         font-size: 14px;
     }
-    main .classOrderSectionOne hr{
+    .classOrderMain .classOrderSectionOne hr{
         height: 3px;
         width: 35px;
     }
-    main .classOrderSectionOne .sectionOneContent{
+    .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 20px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 50px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 10px;
     }
-    main .classOrderSectionTwo p{
+    .classOrderMain .classOrderSectionTwo p{
         font-size: 9px;
     }
-    main .classOrderSectionTwo table tr td{
+    .classOrderMain .classOrderSectionTwo table tr td{
         border: 1px solid rgb(188,143,143);
         padding: 1px;
     }
-    main .classOrderSectionTwo table tr .dataAndTime{
+    .classOrderMain .classOrderSectionTwo table tr .dataAndTime{
         font-size: 9px;
     }
-    main .classOrderSectionTwo table tr .dataContent{
+    .classOrderMain .classOrderSectionTwo table tr .dataContent{
         font-size: 7px;
         letter-spacing: 2px;
     }
-    main .classOrderSectionTwo .personal{
+    .classOrderMain .classOrderSectionTwo .personal{
         padding-left: 20px;
         padding-top: 5px;
     }
-    main .classOrderSectionTwo .personal p{
+    .classOrderMain .classOrderSectionTwo .personal p{
         font-size: 12px;
         font-weight: 900;
     }
-    main .classOrderSectionTwo .personal span{
+    .classOrderMain .classOrderSectionTwo .personal span{
         font-size: 10px;
         font-weight: 900;
         padding-left: 40px;
     }
-    main .classOrderSectionTwo .orderTime{
+    .classOrderMain .classOrderSectionTwo .orderTime{
         display: flex;
         flex-direction: column;
         font-weight: 900;
         padding-left: 40px;
     }
-    main .classOrderSectionThree{
+    .classOrderMain .classOrderSectionThree{
         padding-left: 15px;
     }
-    main .classOrderSectionThree hr{
+    .classOrderMain .classOrderSectionThree hr{
         width: 35px;
     }
-    main .classOrderSectionThree p{
+    .classOrderMain .classOrderSectionThree p{
         font-size: 11px;
     }
-    main .classOrderSectionThree h2{
+    .classOrderMain .classOrderSectionThree h2{
         font-size: 13px;                
     }
-    main .classOrderSectionThree .contentBox{
+    .classOrderMain .classOrderSectionThree .contentBox{
         padding-left: 35px;
     }
-    main .classOrderSectionThree span{
+    .classOrderMain .classOrderSectionThree span{
         font-size: 9px;
         font-weight: 900;
     }
-    main .classOrderSectionThree .noticeP{
+    .classOrderMain .classOrderSectionThree .noticeP{
         font-size: 9px;
     }
 }
 @media(min-width:420px){
-    main{
+    .classOrderMain{
         padding-top: 40px;
     }
-    main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
+    .classOrderMain .classOrderSectionOne h1,.classOrderMain .classOrderSectionTwo h1,.classOrderMain .classOrderSectionThree h1{
         font-size: 15px;
     }
-    main .classOrderSectionOne .sectionOneContent{
+    .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 25px;
     }
-    main .classOrderSectionOne .sectionOneContent span{
+    .classOrderMain .classOrderSectionOne .sectionOneContent span{
         font-size: 13px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 55px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 11px;
     }
-    main .classOrderSectionTwo p{
+    .classOrderMain .classOrderSectionTwo p{
         font-size: 10px;
     }
-    main .classOrderSectionTwo table tr td{
+    .classOrderMain .classOrderSectionTwo table tr td{
         padding: 1px;
     }
-    main .classOrderSectionTwo table tr .dataAndTime{
+    .classOrderMain .classOrderSectionTwo table tr .dataAndTime{
         font-size: 10px;
     }
-    main .classOrderSectionTwo table tr .dataContent{
+    .classOrderMain .classOrderSectionTwo table tr .dataContent{
         font-size: 8px;
     }
-    main .classOrderSectionTwo .personal{
+    .classOrderMain .classOrderSectionTwo .personal{
         padding-left: 25px;
         padding-top: 8px;
     }
-    main .classOrderSectionTwo .personal p{
+    .classOrderMain .classOrderSectionTwo .personal p{
         font-size: 13px;
         font-weight: 900;
     }
-    main .classOrderSectionTwo .personal span{
+    .classOrderMain .classOrderSectionTwo .personal span{
         font-size: 11px;
         font-weight: 900;
         padding-left: 40px;
     }
-    main .classOrderSectionTwo .orderTime{
+    .classOrderMain .classOrderSectionTwo .orderTime{
         padding-left: 45px;
         padding-top: 5px;
         font-weight: 900;
     }
-    main .classOrderSectionTwo .orderTime p{
+    .classOrderMain .classOrderSectionTwo .orderTime p{
         font-size: 11px;
     }
-    main .classOrderSectionTwo .orderTime span{
+    .classOrderMain .classOrderSectionTwo .orderTime span{
         padding-left: 20px;
         padding-top: 5px;
     }
 }
 @media(min-width:576px){
-    main{
+    .classOrderMain{
         padding-top: 54px;
     }
-    main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
+    .classOrderMain .classOrderSectionOne h1,.classOrderMain .classOrderSectionTwo h1,.classOrderMain .classOrderSectionThree h1{
         font-size: 16px;
     }
-    main .classOrderSectionOne .sectionOneContent{
+    .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 40px;
     }
-    main .classOrderSectionOne .sectionOneContent span{
+    .classOrderMain .classOrderSectionOne .sectionOneContent span{
         font-size: 16px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 75px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 12px;
     }
-    main .classOrderSectionTwo p{
+    .classOrderMain .classOrderSectionTwo p{
         font-size: 11px;
     }
-    main .classOrderSectionTwo table tr td{
+    .classOrderMain .classOrderSectionTwo table tr td{
         padding: 2px;
     }
-    main .classOrderSectionTwo table tr .dataAndTime{
+    .classOrderMain .classOrderSectionTwo table tr .dataAndTime{
         font-size: 12px;
     }
-    main .classOrderSectionTwo table tr .dataContent{
+    .classOrderMain .classOrderSectionTwo table tr .dataContent{
         font-size: 10px;
     }
-    main .classOrderSectionTwo .personal{
+    .classOrderMain .classOrderSectionTwo .personal{
         padding-left: 35px;
         padding-top: 10px;
     }
-    main .classOrderSectionTwo .personal p{
+    .classOrderMain .classOrderSectionTwo .personal p{
         font-size: 14px;
     }
-    main .classOrderSectionTwo .personal span{
+    .classOrderMain .classOrderSectionTwo .personal span{
         font-size: 12px;
         padding-left: 45px;
     }
-    main .classOrderSectionTwo .orderTime{
+    .classOrderMain .classOrderSectionTwo .orderTime{
         padding-left: 55px;
         padding-top: 10px;
     }
-    main .classOrderSectionTwo .orderTime p{
+    .classOrderMain .classOrderSectionTwo .orderTime p{
         font-size: 12px;
     }
-    main .classOrderSectionTwo .orderTime span{
+    .classOrderMain .classOrderSectionTwo .orderTime span{
         font-size: 10px;
         padding-left: 30px;
         padding-top: 10px;
     }
-    main .classOrderSectionThree{
+    .classOrderMain .classOrderSectionThree{
         padding-left: 20px;
     }
-    main .classOrderSectionThree hr{
+    .classOrderMain .classOrderSectionThree hr{
         width: 35px;
     }
-    main .classOrderSectionThree p{
+    .classOrderMain .classOrderSectionThree p{
         font-size: 12px;
         padding-left: 10px;
     }
-    main .classOrderSectionThree h2{
+    .classOrderMain .classOrderSectionThree h2{
         font-size: 14px;                
     }
-    main .classOrderSectionThree .contentBox{
+    .classOrderMain .classOrderSectionThree .contentBox{
         padding-left: 45px;
     }
-    main .classOrderSectionThree span{
+    .classOrderMain .classOrderSectionThree span{
         font-size: 10px;
     }
-    main .classOrderSectionThree .noticeP{
+    .classOrderMain .classOrderSectionThree .noticeP{
         font-size: 12px;
     }
 }
 @media(min-width:768px){
-    main{
+    .classOrderMain{
         padding-top: 60px;
     }
-    main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
+    .classOrderMain .classOrderSectionOne h1,.classOrderMain .classOrderSectionTwo h1,.classOrderMain .classOrderSectionThree h1{
         font-size: 18px;
         letter-spacing: 5px;
     }
-    main .classOrderSectionOne .sectionOneContent{
+    .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 50px;
     }
-    main .classOrderSectionOne .sectionOneContent span{
+    .classOrderMain .classOrderSectionOne .sectionOneContent span{
         font-size: 18px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 85px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 14px;
     }
-    main .classOrderSectionTwo p{
+    .classOrderMain .classOrderSectionTwo p{
         font-size: 12px;
     }
-    main .classOrderSectionTwo hr{
+    .classOrderMain .classOrderSectionTwo hr{
         width: 55px;
         margin-top: 5px;
     }
-    main .classOrderSectionTwo table tr td{
+    .classOrderMain .classOrderSectionTwo table tr td{
         padding: 2px;
     }
-    main .classOrderSectionTwo table tr .dataAndTime{
+    .classOrderMain .classOrderSectionTwo table tr .dataAndTime{
         font-size: 14px;
     }
-    main .classOrderSectionTwo table tr .dataContent{
+    .classOrderMain .classOrderSectionTwo table tr .dataContent{
         font-size: 12px;
     }
-    main .classOrderSectionTwo .personal{
+    .classOrderMain .classOrderSectionTwo .personal{
         padding-left: 40px;
         padding-top: 15px;
     }
-    main .classOrderSectionTwo .personal p{
+    .classOrderMain .classOrderSectionTwo .personal p{
         font-size: 16px;
     }
-    main .classOrderSectionTwo .personal span{
+    .classOrderMain .classOrderSectionTwo .personal span{
         font-size: 13px;
         padding-left: 45px;
     }
-    main .classOrderSectionTwo .orderTime{
+    .classOrderMain .classOrderSectionTwo .orderTime{
         padding-left: 65px;
         padding-top: 10px;
     }
-    main .classOrderSectionTwo .orderTime p{
+    .classOrderMain .classOrderSectionTwo .orderTime p{
         font-size: 13px;
     }
-    main .classOrderSectionTwo .orderTime span{
+    .classOrderMain .classOrderSectionTwo .orderTime span{
         font-size: 12px;
         padding-left: 40px;
         padding-top: 15px;
     }
-    main .classOrderSectionThree{
+    .classOrderMain .classOrderSectionThree{
         padding-left: 20px;
     }
-    main .classOrderSectionThree hr{
+    .classOrderMain .classOrderSectionThree hr{
         width: 40px;
     }
-    main .classOrderSectionThree p{
+    .classOrderMain .classOrderSectionThree p{
         font-size: 14px;
         padding-left: 15px;
     }
-    main .classOrderSectionThree h2{
+    .classOrderMain .classOrderSectionThree h2{
         font-size: 16px;                
     }
-    main .classOrderSectionThree .contentBox{
+    .classOrderMain .classOrderSectionThree .contentBox{
         padding-left: 50px;
     }
-    main .classOrderSectionThree span{
+    .classOrderMain .classOrderSectionThree span{
         font-size: 11px;
     }
-    main .classOrderSectionThree .noticeP{
+    .classOrderMain .classOrderSectionThree .noticeP{
         font-size: 14px;
     }
 }
 @media(min-width:992px){
-    main{
+    .classOrderMain{
         padding-top: 64px;
     }
-    main .classOrderSectionOne h1,main .classOrderSectionTwo h1,main .classOrderSectionThree h1{
+    .classOrderMain .classOrderSectionOne h1,.classOrderMain .classOrderSectionTwo h1,.classOrderMain .classOrderSectionThree h1{
         font-size: 22px;
         letter-spacing: 5px;
     }
-    main .classOrderSectionOne hr{
+    .classOrderMain .classOrderSectionOne hr{
         height: 3px;
         width: 55px;
     }
-    main .classOrderSectionOne .sectionOneContent{
+    .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 65px;
     }
-    main .classOrderSectionOne .sectionOneContent span{
+    .classOrderMain .classOrderSectionOne .sectionOneContent span{
         font-size: 20px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 105px;
     }
-    main .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 16px;
     }
-    main .classOrderSectionTwo p{
+    .classOrderMain .classOrderSectionTwo p{
         font-size: 14px;
     }
-    main .classOrderSectionTwo hr{
+    .classOrderMain .classOrderSectionTwo hr{
         width: 65px;
         margin-top: 5px;
     }
-    main .classOrderSectionTwo table tr td{
+    .classOrderMain .classOrderSectionTwo table tr td{
         padding: 2px;
     }
-    main .classOrderSectionTwo table tr .dataAndTime{
+    .classOrderMain .classOrderSectionTwo table tr .dataAndTime{
         font-size: 16px;
     }
-    main .classOrderSectionTwo table tr .dataContent{
+    .classOrderMain .classOrderSectionTwo table tr .dataContent{
         font-size: 14px;
     }
-    main .classOrderSectionTwo .personal{
+    .classOrderMain .classOrderSectionTwo .personal{
         padding-left: 50px;
         padding-top: 18px;
     }
-    main .classOrderSectionTwo .personal p{
+    .classOrderMain .classOrderSectionTwo .personal p{
         font-size: 20px;
     }
-    main .classOrderSectionTwo .personal span{
+    .classOrderMain .classOrderSectionTwo .personal span{
         font-size: 15px;
         padding-left: 65px;
     }
-    main .classOrderSectionTwo .orderTime{
+    .classOrderMain .classOrderSectionTwo .orderTime{
         padding-left: 85px;
         padding-top: 12px;
     }
-    main .classOrderSectionTwo .orderTime p{
+    .classOrderMain .classOrderSectionTwo .orderTime p{
         font-size: 16px;
     }
-    main .classOrderSectionTwo .orderTime span{
+    .classOrderMain .classOrderSectionTwo .orderTime span{
         font-size: 14px;
         padding-left: 50px;
         padding-top: 16px;
     }
-    main .classOrderSectionThree{
+    .classOrderMain .classOrderSectionThree{
         padding-left: 30px;
     }
-    main .classOrderSectionThree hr{
+    .classOrderMain .classOrderSectionThree hr{
         width: 50px;
     }
-    main .classOrderSectionThree p{
+    .classOrderMain .classOrderSectionThree p{
         font-size: 16px;
         padding-left: 15px;
     }
-    main .classOrderSectionThree h2{
+    .classOrderMain .classOrderSectionThree h2{
         font-size: 18px;                
     }
-    main .classOrderSectionThree .contentBox{
+    .classOrderMain .classOrderSectionThree .contentBox{
         padding-left: 50px;
     }
-    main .classOrderSectionThree span{
+    .classOrderMain .classOrderSectionThree span{
         font-size: 13px;
     }
-    main .classOrderSectionThree .noticeP{
+    .classOrderMain .classOrderSectionThree .noticeP{
         font-size: 16px;
     }
 }

@@ -44,6 +44,7 @@ nav .nav-ul{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     display: none;
+    z-index: 11;
 }
 nav .nav-ul li{
     padding: 5px 5px 5px 10px;

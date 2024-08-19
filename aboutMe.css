@@ -130,11 +130,11 @@
         font-size: 14px;
     }
     .aboutMeMain .picSlogn .col-phone2-60 .col-phone2-60 p{
-        font-size: 11px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 18px;
     } 
     .aboutMeMain .picSlogn .col-phone2-60 .col-phone2-60 hr{
-        height: 8px;
+        height: 12px;
     }
     .aboutMeMain .picSlogn .picContent img{
         width: 43%;
@@ -147,6 +147,9 @@
     }
     .aboutMeMain .picSlogn .picContent .picContentBr{
         display: block;
+    }
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop{
+        display: none;
     }
 }
 @media(min-width:768px){
@@ -181,6 +184,9 @@
         font-size: 14px;
         line-height: 22px;
         letter-spacing: 4px;
+    }
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop{
+        display: block;
     }
 }
 @media(min-width:992px){

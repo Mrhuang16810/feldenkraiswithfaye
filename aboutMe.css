@@ -1,3 +1,6 @@
+.aboutMeMain{
+    padding-top: 30px;
+}
 .aboutMeMain h1{
     text-align: center;
     font-size: 12px;
@@ -82,6 +85,9 @@
     border: none;
 }
 @media(min-width:420px){
+    .aboutMeMain{
+        padding-top: 40px;
+    }
     .aboutMeMain h1{
         font-size: 13px;
     }
@@ -117,6 +123,9 @@
     }
 }
 @media(min-width:576px){
+    .aboutMeMain{
+        padding-top: 54px;
+    }
     .aboutMeMain h1{
         font-size: 15px;
     }
@@ -153,6 +162,9 @@
     }
 }
 @media(min-width:768px){
+    .aboutMeMain{
+        padding-top: 60px;
+    }
     .aboutMeMain h1{
         font-size: 17px;
     }
@@ -190,6 +202,9 @@
     }
 }
 @media(min-width:992px){
+    .aboutMeMain{
+        padding-top: 64px;
+    }
     .aboutMeMain h1{
         font-size: 20px;
     }

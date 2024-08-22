@@ -41,19 +41,25 @@
         }
         .sectionOne .btnContainer{
             display: flex;
-            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
         }
-        .sectionOne .btnContainer p{
+        /* .sectionOne .btnContainer p{
             margin: 5px 0 10px 0;
-        }
-        .sectionOne .btnContainer p a{
+            border: 1px solid #000;
+            width: 100%;
+        } */
+        .sectionOne .btnContainer a{
+            width: 100%;
             font-weight: 900;
             font-size: 8px;
             text-decoration: none;
             background-color: rgb(182,182,182);
             color: #fff;
-            padding: 3px;
-            border-radius: 5px;
+            padding: 8px 0 8px 0;
+            text-align: center;
+            margin-top: 3px;
+            letter-spacing: 5px;
         }
         .sectionTwo{
             margin-left: 40px;
@@ -132,12 +138,12 @@
     <main class="container">
         <section class="sectionOne">
             <div class="btnContainer">
-                <p><a href="#year2025">2025年 文章</a></p>
-                <p><a href="#year2024">2024年 文章</a></p>
-                <p><a href="#year2023">2023年 文章</a></p>
-                <p><a href="#year2022">2022年 文章</a></p>
-                <p><a href="#year2021">2021年 文章</a></p>
-                <p><a href="#year2020">2020年 文章</a></p>
+                <a href="#year2025">2025年 文章</a>
+                <a href="#year2024">2024年 文章</a>
+                <a href="#year2023">2023年 文章</a>
+                <a href="#year2022">2022年 文章</a>
+                <a href="#year2021">2021年 文章</a>
+                <a href="#year2020">2020年 文章</a>
             </div>
         </section>
         <section class="sectionTwo">

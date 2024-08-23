@@ -22,8 +22,8 @@
             </h1></a>
             <ul class="nav-ul">
                 <li><a href="introduce.html">課程介紹</a></li>
-                <li><a href="share.html">旅程分享</a></li>
-                <li><a href="aboutMe.html" class="thisPageColor">關於我</a></li>
+                <li><a href="share.html" class="thisPageColor">旅程分享</a></li>
+                <li><a href="aboutMe.html">關於我</a></li>
                 <li><a href="classOrder.html">課程資訊／報名</a></li>
                 <li><a href="index.html">諮詢／預約</a></li>
             </ul>
@@ -38,17 +38,9 @@
             padding-bottom: 3px;
             display: flex;
         }
-        /* .sectionOne .col-phone-30{
-            border: 1px solid #000;
-        } */
         .sectionOne .btnContainer{
             display: flex;
         }
-        /* .sectionOne .btnContainer p{
-            margin: 5px 0 10px 0;
-            border: 1px solid #000;
-            width: 100%;
-        } */
         .sectionOne .btnContainer a{
             width: 100%;
             font-weight: 900;
@@ -65,7 +57,6 @@
         }
         .sectionTwo{
             margin-left: 40px;
-            /* padding-top: 40px; */
             padding-left: 10px;
             border-left: 3px solid rgb(182,182,182);
         }
@@ -116,26 +107,60 @@
             line-height: 12px;
             cursor: pointer;
         }
-        /* @media(min-width:390px){
+        @media(min-width:390px){
             .sectionTwo{
-                margin-left: 60px;
+                margin-left: 40px;
                 padding-left: 10px;
-                letter-spacing: 1px;
+                border-left: 3px solid rgb(182,182,182);
+            }
+            .sectionTwo .row{
+                margin-bottom: 10px;
+                position: relative;
             }
             .sectionTwo .row .yearP{
-                left: -55px;
+                position: absolute;
+                left: -50px;
+                font-size: 10px;
+                font-weight: 900;
+                color: rgb(182,182,182);
+            }
+            .sectionTwo .row .col-phone-20{
+                padding-top: 5px;
+            }
+            .sectionTwo .row .col-phone-80 .articleTitle{
+                font-size: 8px;
+                color: rgb(188,143,143);
+                padding-left: 10px;
+                margin: 5px 0;
+                font-weight: 900;
+            }
+            .sectionTwo .row .col-phone-80 hr{
+                background-color: rgb(188,143,143);
+                height: 1px;
+                border: none;
+                margin: 0;
+            }
+            .sectionTwo .row .col-phone-80 .articleBox{
+                padding-left: 30px;
+            }
+            .sectionTwo .row .col-phone-80 .articleBox .allArticle{
+                display: none;
+            }
+            .sectionTwo .row .col-phone-80 .articleBox .article,.sectionTwo .row .col-phone-80 .articleBox .article p,.sectionTwo .row .col-phone-80 .articleBox .allArticle p{
+                font-size: 6px;
+                letter-spacing: 1px;
+                margin-bottom: 0;
+                font-weight: 900;
+            }
+            .sectionTwo .row .col-phone-80 .articleBox .article span,.sectionTwo .row .col-phone-80 .articleBox .allArticle p span{
+                color: rgb(188,143,143);
+                font-size: 6px;
+                font-weight: 900;
+                letter-spacing: 2px;
+                line-height: 12px;
+                cursor: pointer;
             }
         }
-        @media(min-width:420px){
-            .sectionTwo{
-                margin-left: 60px;
-                padding-left: 10px;
-                letter-spacing: 1px;
-            }
-            .sectionTwo .row .yearP{
-                left: -55px;
-            }
-        } */
     </style>
     <main class="container">
         <section class="sectionOne">

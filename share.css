@@ -1,0 +1,279 @@
+.sectionOne{
+    z-index: 10;
+    line-height: 0;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    display: flex;
+}
+.sectionOne .btnContainer{
+    display: flex;
+}
+.sectionOne .btnContainer a{
+    width: 100%;
+    font-weight: 900;
+    font-size: 4px;
+    text-decoration: none;
+    background-color: rgb(182,182,182);
+    color: #fff;
+    padding: 4px 0 4px 0;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 1px #000;
+    letter-spacing: 0.5px;
+}
+.sectionTwo{
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 3px solid rgb(182,182,182);
+}
+.sectionTwo .row{
+    margin-bottom: 10px;
+    position: relative;
+}
+.sectionTwo .row .yearP{
+    position: absolute;
+    left: -50px;
+    font-size: 10px;
+    font-weight: 900;
+    color: rgb(182,182,182);
+}
+.sectionTwo .row .boxFlex{
+    display: flex;
+}
+.sectionTwo .row .boxFlex img{
+    width: 100%;
+}
+.sectionTwo .row .col-phone-30{
+    padding-top: 5px;
+}
+.sectionTwo .row .col-phone-70{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.sectionTwo .row .col-phone-70 .articleTitle{
+    font-size: 8px;
+    color: rgb(188,143,143);
+    padding-left: 10px;
+    margin: 5px 0;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.sectionTwo .row .articleLeftTitle .articleTitle{
+    padding-left: 0;
+}
+.sectionTwo .row .col-phone-70 hr{
+    background-color: rgb(188,143,143);
+    height: 1px;
+    border: none;
+    margin: 0;
+}
+.sectionTwo .row .col-phone-70 .articleBox{
+    padding-left: 30px;
+}
+.sectionTwo .row .col-phone-70 .articleBox .allArticle,.sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft{
+    display: none;
+}
+.sectionTwo .row .col-phone-70 .articleBox .article,
+.sectionTwo .row .col-phone-70 .articleBox .article p,
+.sectionTwo .row .col-phone-70 .articleBox .allArticle p,
+.sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft,
+.sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft p,
+.sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p{
+    font-size: 6px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+.sectionTwo .row .col-phone-70 .articleBox .article span,
+.sectionTwo .row .col-phone-70 .articleBox .allArticle p span,
+.sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft span,
+.sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p span{
+    color: rgb(188,143,143);
+    font-size: 6px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 12px;
+    cursor: pointer;
+}
+@media(min-width:420px){
+    .sectionOne{
+        padding-top: 40px;
+    }
+    .sectionTwo{
+        margin-left: 50px;
+    }
+    .sectionTwo .row .col-phone-70 hr{
+        height: 2px;
+    }
+    .sectionTwo .row .col-phone-70 .articleTitle{
+        font-size: 9px;
+        padding-left: 15px;
+        letter-spacing: 2px;
+    }
+    .sectionTwo .row .articleLeftTitle .articleTitle{
+        padding-left: 0;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox .article,
+    .sectionTwo .row .col-phone-70 .articleBox .article p,
+    .sectionTwo .row .col-phone-70 .articleBox .allArticle p,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft p,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p{
+        font-size: 7px;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox .article span,
+    .sectionTwo .row .col-phone-70 .articleBox .allArticle p span,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft span,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p span{
+        font-size: 7px;
+    }
+}
+@media(min-width:576px){
+    .sectionOne{
+        padding-top: 54px;
+        padding-bottom: 10px;
+    }
+    .sectionOne .btnContainer a{
+        font-size: 8px;
+        padding: 8px 0 8px 0;
+        margin-right: 8px;
+        letter-spacing: 1px;
+    }
+    .sectionTwo{
+        margin-left: 75px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sectionTwo .row .yearP{
+        left: -75px;
+        font-size: 13px;
+    }
+    .sectionTwo .row .col-phone-70 .articleTitle{
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .sectionTwo .row .articleLeftTitle .articleTitle{
+        padding-left: 0;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox{
+        padding-left: 60px;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox .article,
+    .sectionTwo .row .col-phone-70 .articleBox .article p,
+    .sectionTwo .row .col-phone-70 .articleBox .allArticle p,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft p,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p{
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox .article span,
+    .sectionTwo .row .col-phone-70 .articleBox .allArticle p span,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft span,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p span{
+        font-size: 11px;
+        line-height: 20px;
+    }
+}
+@media(min-width:768px){
+    .sectionOne{
+        padding-top: 60px;
+        padding-bottom: 15px;
+    }
+    .sectionOne .btnContainer a{
+        font-size: 10px;
+        padding: 10px 0 10px 0;
+        margin-right: 12px;
+        letter-spacing: 1px;
+    }
+    .sectionTwo{
+        margin-left: 90px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .sectionTwo .row .yearP{
+        left: -95px;
+        font-size: 16px;
+    }
+    .sectionTwo .row .col-phone-70 .articleTitle{
+        font-size: 16px;
+        padding-left: 30px;
+        letter-spacing: 4px;
+    }
+    .sectionTwo .row .articleLeftTitle .articleTitle{
+        padding-left: 0;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox{
+        padding-left: 70px;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox .article,
+    .sectionTwo .row .col-phone-70 .articleBox .article p,
+    .sectionTwo .row .col-phone-70 .articleBox .allArticle p,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft p,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p{
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox .article span,
+    .sectionTwo .row .col-phone-70 .articleBox .allArticle p span,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft span,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p span{
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
+@media(min-width:992px){
+    .sectionOne{
+        padding-top: 64px;
+        padding-bottom: 20px;
+    }
+    .sectionOne .btnContainer a{
+        font-size: 12px;
+        padding: 12px 0 12px 0;
+        margin-right: 14px;
+        letter-spacing: 1px;
+    }
+    .sectionTwo{
+        margin-left: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .sectionTwo .row .yearP{
+        left: -100px;
+        font-size: 18px;
+    }
+    .sectionTwo .row .col-phone-70 hr{
+        height: 3px;
+    }
+    .sectionTwo .row .col-phone-70 .articleTitle{
+        font-size: 20px;
+        padding-left: 40px;
+        letter-spacing: 6px;
+    }
+    .sectionTwo .row .articleLeftTitle .articleTitle{
+        padding-left: 0;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox{
+        padding-left: 90px;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox .article,
+    .sectionTwo .row .col-phone-70 .articleBox .article p,
+    .sectionTwo .row .col-phone-70 .articleBox .allArticle p,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft p,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p{
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+    .sectionTwo .row .col-phone-70 .articleBox .article span,
+    .sectionTwo .row .col-phone-70 .articleBox .allArticle p span,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .articleLeft span,
+    .sectionTwo .row .col-phone-70 .articleLeftBox .allArticleLeft p span{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}

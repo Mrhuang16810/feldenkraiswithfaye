@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
 }
 .introduceSectionOne h1{
     font-size: 15px;
@@ -386,6 +387,12 @@
     }
 }
 @media(min-width:420px){
+    .introduceSectionOne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
     .introduceSectionOne h1{
         font-size: 17px;
         letter-spacing: 2px;
@@ -569,6 +576,12 @@
     }
 }
 @media(min-width:576px){
+    .introduceSectionOne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 54px;
+    }
     .introduceSectionOne h1{
         font-size: 18px;
         letter-spacing: 2px;
@@ -752,6 +765,12 @@
     }
 }
 @media(min-width:768px){
+    .introduceSectionOne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
     .introduceSectionOne h1{
         font-size: 20px;
         letter-spacing: 3px;
@@ -937,6 +956,12 @@
     }
 }
 @media(min-width:992px){
+    .introduceSectionOne{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+    }
     .introduceSectionOne h1{
         font-size: 24px;
         letter-spacing: 4px;

@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
 }
 .introduceSectionOne h1{
     font-size: 15px;
     font-weight: 900;
     letter-spacing: 2px;
     margin-bottom: 6px;
+    padding-top: 30px;
 }
 .introduceSectionOne hr{
     width: 30px;
@@ -206,6 +206,7 @@
     .introduceSectionOne h1{
         font-size: 15px;
         letter-spacing: 2px;
+        padding-top: 30px;
     }
     .introduceSectionOne hr{
         width: 38px;
@@ -387,15 +388,10 @@
     }
 }
 @media(min-width:420px){
-    .introduceSectionOne{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 40px;
-    }
     .introduceSectionOne h1{
         font-size: 17px;
         letter-spacing: 2px;
+        padding-top: 40px;
     }
     .introduceSectionOne hr{
         width: 43px;
@@ -576,15 +572,10 @@
     }
 }
 @media(min-width:576px){
-    .introduceSectionOne{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 54px;
-    }
     .introduceSectionOne h1{
         font-size: 18px;
         letter-spacing: 2px;
+        padding-top: 54px;
     }
     .introduceSectionOne hr{
         width: 45px;
@@ -765,15 +756,10 @@
     }
 }
 @media(min-width:768px){
-    .introduceSectionOne{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 60px;
-    }
     .introduceSectionOne h1{
         font-size: 20px;
         letter-spacing: 3px;
+        padding-top: 60px;
     }
     .introduceSectionOne hr{
         width: 50px;
@@ -956,15 +942,10 @@
     }
 }
 @media(min-width:992px){
-    .introduceSectionOne{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 64px;
-    }
     .introduceSectionOne h1{
         font-size: 24px;
         letter-spacing: 4px;
+        padding-top: 64px;
     }
     .introduceSectionOne hr{
         width: 55px;

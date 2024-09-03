@@ -1,0 +1,1125 @@
+.introduceSectionOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduceSectionOne h1{
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
+.introduceSectionOne hr{
+    width: 30px;
+    border: none;
+    height: 2px;
+    background-color: rgb(188,143,143);
+    margin: 0;
+}
+.introduceSectionOne p{
+    margin: 1em 0;
+    font-size: 10px;
+}
+.introduceSectionOne p a{
+    color: rgb(128,128,128);
+    letter-spacing: 2px;
+    margin: 0 3px;
+    text-decoration: none;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 10px;
+}
+.introduceSectionOne p .thisPageColor{
+    background-color: rgb(188,143,143);
+    color: #fff;
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px;
+}
+.introduceSectionTwo{
+    position: relative;
+}
+.introduceSectionTwo2{
+    position: relative;
+}
+.introduceSectionTwo3{
+    position: relative;
+}
+.introduceSectionTwo .imgLongBox .imgBox img{
+    position: absolute;
+    top: -16px;
+    left: 36px;
+    width: 38%;
+}
+.introduceSectionTwo2 .imgLongBox .imgBox img{
+    position: absolute;
+    top: -16px;
+    left: 30px;
+    width: 55%;
+}
+.introduceSectionTwo3 .imgLongBox .imgBox img{
+    position: absolute;
+    top: -16px;
+    left: 30px;
+    width: 55%;
+}
+.introduceSectionTwo .imgLongBox .longBox{
+    display: flex;
+    margin-top: 25px;
+    background-color: rgb(243, 243, 243);
+}
+.introduceSectionTwo2 .imgLongBox .longBox{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(243, 243, 243);
+}
+.introduceSectionTwo3 .imgLongBox .longBox{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(243, 243, 243);
+}
+.introduceSectionTwo .imgLongBox .longBox .col-phone-40{
+    padding-left: 0.5em;
+    padding-right: 1.8em;
+}
+.introduceSectionTwo2 .imgLongBox .longBox .col-phone-40{
+    padding-left: 7em;
+    padding-right: 0.6em;
+}
+.introduceSectionTwo3 .imgLongBox .longBox .col-phone-40{
+    padding-left: 7em;
+    padding-right: 0.6em;
+}
+.introduceSectionTwo .imgLongBox .longBox h2{
+    color: rgb(188,143,143);
+    font-size: 12px;
+    font-weight: 900;
+    margin: 12px 0 0 0;
+}
+.introduceSectionTwo2 .imgLongBox .longBox h2{
+    color: rgb(188,143,143);
+    font-size: 12px;
+    font-weight: 900;
+    margin: 20px 0 0 0;
+}
+.introduceSectionTwo3 .imgLongBox .longBox h2{
+    color: rgb(188,143,143);
+    font-size: 10px;
+    font-weight: 900;
+    margin: 12px 0 0 0;
+}
+.introduceSectionTwo .imgLongBox .longBox p{
+    font-size: 7px;
+    font-weight: 900;
+    line-height: 12px;
+    letter-spacing: 1px;
+    margin: 10px 0 10px 0;
+}
+.introduceSectionTwo2 .imgLongBox .longBox p{
+    font-size: 7px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+}
+.introduceSectionTwo3 .imgLongBox .longBox p{
+    font-size: 8px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0 5px 0;
+}
+.introduceSectionThree{
+    padding: 1em;
+}
+.introduceSectionThree2{
+    padding: 1em;
+}
+.introduceSectionThree3{
+    padding: 1em;
+}
+.introduceSectionThree p{
+    font-size: 8px;
+    font-weight: 900;
+    line-height: 16px;
+}
+.introduceSectionThree2 p{
+    font-size: 8px;
+    font-weight: 900;
+    line-height: 16px;
+}
+.introduceSectionThree3 p{
+    font-size: 8px;
+    font-weight: 900;
+    line-height: 16px;
+}
+.introduceSectionThree3 ul{
+    font-size: 8px;
+    font-weight: 900;
+}
+.introduceSectionThree3 ul li{
+    margin-top: 1em;
+}
+.introduceSectionThree .imgPBox{
+    display: flex;
+    margin-top: 20px;
+}
+.introduceSectionThree2 .imgPBox{
+    display: flex;
+    margin-top: 20px;
+}
+.introduceSectionThree3 .imgPBox{
+    display: flex;
+    margin-top: 20px;
+}
+.introduceSectionThree .imgPBox img{
+    width: 13px;
+    height: 12px;
+    margin-right: 5px;
+}
+.introduceSectionThree2 .imgPBox img{
+    width: 13px;
+    height: 12px;
+    margin-right: 5px;
+}
+.introduceSectionThree3 .imgPBox img{
+    width: 13px;
+    height: 12px;
+    margin-right: 5px;
+}
+.introduceSectionThree .imgPBox p{
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 12px;
+}
+.introduceSectionThree2 .imgPBox p{
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 12px;
+}
+.introduceSectionThree3 .imgPBox p{
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 12px;
+}
+@media(min-width:390px){
+    .introduceSectionOne h1{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .introduceSectionOne hr{
+        width: 38px;
+        height: 3px;
+    }
+    .introduceSectionOne p{
+        margin: 1em 0;
+        font-size: 11px;
+    }
+    .introduceSectionOne p a{
+        letter-spacing: 2px;
+        margin: 0 4px;
+        font-size: 11px;
+    }
+    .introduceSectionTwo .imgLongBox .imgBox img{
+        top: -12px;
+        left: 48px;
+        width: 40%;
+    }
+    .introduceSectionTwo .imgLongBox .longBox{
+        margin-top: 20px;
+    }
+    .introduceSectionTwo .imgLongBox .longBox .col-phone-40{
+        padding-left: 2.5em;
+        padding-right: 2em;
+    }
+    .introduceSectionTwo .imgLongBox .longBox h2{
+        font-size: 14px;
+        margin: 20px 0 0 0;
+    }
+    .introduceSectionTwo .imgLongBox .longBox p{
+        font-size: 9px;
+        font-weight: 900;
+        line-height: 16px;
+        letter-spacing: 1px;
+        margin: 10px 0 15px 0;
+    }
+    .introduceSectionThree{
+        padding: 1.2em 2em 2em 2em;
+    }
+    .introduceSectionThree p{
+        font-size: 9px;
+        line-height: 16px;
+    }
+    .introduceSectionThree .imgPBox{
+        margin-top: 10px;
+    }
+    .introduceSectionThree .imgPBox img{
+        width: 18px;
+        height: 12px;
+        padding-top: 2px;
+        margin-right: 6px;
+    }
+    .introduceSectionThree .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+    /* 2 */
+    .introduceSectionTwo2{
+        position: relative;
+    }
+    .introduceSectionTwo2 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 30px;
+        width: 50%;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox .col-phone-40{
+        padding-left: 5em;
+        padding-right: 0.6em;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        margin: 20px 0 0 0;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox p{
+        font-size: 9px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin: 20px 0 20px 0;
+    }
+    .introduceSectionThree2{
+        padding: 1.5em 2em 2em 2em;
+    }
+    .introduceSectionThree2 p{
+        font-size: 8px;
+        font-weight: 900;
+        line-height: 16px;
+    }
+    .introduceSectionThree2 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree2 .imgPBox img{
+        width: 13px;
+        height: 12px;
+        padding-top: 2px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree2 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+    /* 3 */
+    .introduceSectionTwo3{
+        position: relative;
+    }
+    .introduceSectionTwo3 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 50px;
+        width: 48%;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox .col-phone-40{
+        padding-left: 6.5em;
+        padding-right: 0.6em;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 11px;
+        font-weight: 900;
+        margin: 12px 0 0 0;
+        letter-spacing: 1px;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox p{
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin: 5px 0 5px 0;
+    }
+    .introduceSectionThree3{
+        padding: 1em 2em 2em 2em;
+    }
+    .introduceSectionThree3 p{
+        font-size: 9px;
+        font-weight: 900;
+        line-height: 16px;
+    }
+    .introduceSectionThree3 ul{
+        font-size: 9px;
+        font-weight: 900;
+    }
+    .introduceSectionThree3 ul li{
+        margin-top: 1.6em;
+        line-height: 16px;
+        letter-spacing: 1px;
+    }
+    .introduceSectionThree3 .imgPBox{
+        display: flex;
+        margin-top: 16px;
+    }
+    .introduceSectionThree3 .imgPBox img{
+        width: 16px;
+        height: 12px;
+        padding-top: 2px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree3 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+}
+@media(min-width:420px){
+    .introduceSectionOne h1{
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+    .introduceSectionOne hr{
+        width: 43px;
+        height: 3px;
+    }
+    .introduceSectionOne p{
+        margin: 1.2em 0;
+        font-size: 12px;
+    }
+    .introduceSectionOne p a{
+        letter-spacing: 2px;
+        margin: 0 4px;
+        font-size: 12px;
+    }
+    .introduceSectionTwo .imgLongBox .imgBox img{
+        top: -12px;
+        left: 48px;
+        width: 42%;
+    }
+    .introduceSectionTwo .imgLongBox .longBox{
+        margin-top: 20px;
+    }
+    .introduceSectionTwo .imgLongBox .longBox .col-phone-40{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .introduceSectionTwo .imgLongBox .longBox h2{
+        font-size: 15px;
+        margin: 20px 0 0 0;
+    }
+    .introduceSectionTwo .imgLongBox .longBox p{
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin: 10px 0 20px 0;
+    }
+    .introduceSectionThree{
+        padding: 0.8em 2em 2em 2em;
+    }
+    .introduceSectionThree p{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .introduceSectionThree .imgPBox{
+        margin-top: 15px;
+    }
+    .introduceSectionThree .imgPBox img{
+        width: 20px;
+        height: 14px;
+        padding-top: 1px;
+        margin-right: 6px;
+    }
+    .introduceSectionThree .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 18px;
+    }
+    /* 2 */
+    .introduceSectionTwo2{
+        position: relative;
+    }
+    .introduceSectionTwo2 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 55px;
+        width: 45%;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox .col-phone-40{
+        padding-left: 4em;
+        padding-right: 0.6em;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 16px;
+        letter-spacing: 2px;
+        font-weight: 900;
+        margin: 20px 0 0 0;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox p{
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin: 20px 0 20px 0;
+    }
+    .introduceSectionThree2{
+        padding: 1.5em 2em 2em 2em;
+    }
+    .introduceSectionThree2 p{
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 18px;
+    }
+    .introduceSectionThree2 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree2 .imgPBox img{
+        width: 13px;
+        height: 12px;
+        padding-top: 3px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree2 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 18px;
+    }
+    /* 3 */
+    .introduceSectionTwo3{
+        position: relative;
+    }
+    .introduceSectionTwo3 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 60px;
+        width: 45%;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox .col-phone-40{
+        padding-left: 5.5em;
+        padding-right: 0.6em;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        margin: 12px 0 0 0;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox p{
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin: 5px 0 5px 0;
+    }
+    .introduceSectionThree3{
+        padding: 1em 2.5em 2.5em 2.5em;
+    }
+    .introduceSectionThree3 p{
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 18px;
+    }
+    .introduceSectionThree3 ul{
+        font-size: 10px;
+        font-weight: 900;
+    }
+    .introduceSectionThree3 ul li{
+        margin-top: 1.6em;
+        line-height: 18px;
+    }
+    .introduceSectionThree3 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree3 .imgPBox img{
+        width: 18px;
+        height: 12px;
+        padding-top: 3px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree3 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 18px;
+    }
+}
+@media(min-width:576px){
+    .introduceSectionOne h1{
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .introduceSectionOne hr{
+        width: 45px;
+        height: 3px;
+    }
+    .introduceSectionOne p{
+        margin: 1.2em 0;
+        font-size: 13px;
+    }
+    .introduceSectionOne p a{
+        letter-spacing: 2px;
+        margin: 0 4px;
+        font-size: 13px;
+    }
+    .introduceSectionTwo .imgLongBox .imgBox img{
+        top: -22px;
+        left: 65px;
+        width: 40%;
+    }
+    .introduceSectionTwo .imgLongBox .longBox{
+        margin-top: 25px;
+    }
+    .introduceSectionTwo .imgLongBox .longBox .col-phone-40{
+        padding-left: 3em;
+        padding-right: 3.5em;
+    }
+    .introduceSectionTwo .imgLongBox .longBox h2{
+        font-size: 16px;
+        margin: 30px 0 0 0;
+    }
+    .introduceSectionTwo .imgLongBox .longBox p{
+        font-size: 11px;
+        font-weight: 900;
+        line-height: 22px;
+        letter-spacing: 1px;
+        margin: 10px 0 20px 0;
+    }
+    .introduceSectionThree{
+        padding: 1.5em 3em 3em 3em;
+    }
+    .introduceSectionThree p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .introduceSectionThree .imgPBox{
+        margin-top: 25px;
+    }
+    .introduceSectionThree .imgPBox img{
+        width: 20px;
+        height: 14px;
+        padding-top: 1px;
+        margin-right: 7px;
+    }
+    .introduceSectionThree .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 18px;
+    }
+    /* 2 */
+    .introduceSectionTwo2{
+        position: relative;
+    }
+    .introduceSectionTwo2 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 85px;
+        width: 40%;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox .col-phone-40{
+        padding-left: 5em;
+        padding-right: 0.6em;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 18px;
+        font-weight: 900;
+        margin: 20px 0 0 0;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox p{
+        font-size: 11px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin: 20px 0 20px 0;
+    }
+    .introduceSectionThree2{
+        padding: 2.5em 3em 3em 3em;
+    }
+    .introduceSectionThree2 p{
+        font-size: 11px;
+        font-weight: 900;
+        line-height: 20px;
+    }
+    .introduceSectionThree2 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree2 .imgPBox img{
+        width: 20px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree2 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+    /* 3 */
+    .introduceSectionTwo3{
+        position: relative;
+    }
+    .introduceSectionTwo3 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 105px;
+        width: 40%;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 25px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox .col-phone-40{
+        padding-left: 7em;
+        padding-right: 0.6em;
+        padding-top: 0.5em;
+        padding-bottom: 0.2em;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 15px;
+        letter-spacing: 3px;
+        font-weight: 900;
+        margin: 12px 0 0 0;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox p{
+        font-size: 12px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 3px;
+        margin: 10px 0 10px 0;
+    }
+    .introduceSectionThree3{
+        padding: 1.5em 5em 5em 5em;
+    }
+    .introduceSectionThree3 p{
+        font-size: 11px;
+        font-weight: 900;
+        line-height: 20px;
+    }
+    .introduceSectionThree3 ul{
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .introduceSectionThree3 ul li{
+        margin-top: 1.8em;
+        line-height: 20px;
+    }
+    .introduceSectionThree3 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree3 .imgPBox img{
+        width: 26px;
+        height: 12px;
+        padding-top: 4px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree3 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+}
+@media(min-width:768px){
+    .introduceSectionOne h1{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .introduceSectionOne hr{
+        width: 50px;
+        height: 3px;
+    }
+    .introduceSectionOne p{
+        margin: 1.3em 0;
+        font-size: 15px;
+    }
+    .introduceSectionOne p a{
+        letter-spacing: 3px;
+        margin: 0 8px;
+        font-size: 15px;
+    }
+    .introduceSectionTwo .imgLongBox .imgBox img{
+        top: -22px;
+        left: 105px;
+        width: 36%;
+    }
+    .introduceSectionTwo .imgLongBox .longBox{
+        margin-top: 30px;
+    }
+    .introduceSectionTwo .imgLongBox .longBox .col-phone-40{
+        padding-left: 2.5em;
+        padding-right: 5em;
+        padding-bottom: 0.5em;
+    }
+    .introduceSectionTwo .imgLongBox .longBox h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin: 40px 0 0 0;
+    }
+    .introduceSectionTwo .imgLongBox .longBox p{
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 24px;
+        letter-spacing: 2px;
+        margin: 20px 0 20px 0;
+    }
+    .introduceSectionThree{
+        padding: 2em 4.5em 4.5em 4.5em;
+    }
+    .introduceSectionThree p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .introduceSectionThree .imgPBox{
+        margin-top: 25px;
+    }
+    .introduceSectionThree .imgPBox img{
+        width: 20px;
+        height: 17px;
+        padding-top: 1px;
+        margin-right: 7px;
+    }
+    .introduceSectionThree .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+    /* 2 */
+    .introduceSectionTwo2{
+        position: relative;
+    }
+    .introduceSectionTwo2 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 135px;
+        width: 35%;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox .col-phone-40{
+        padding-left: 7em;
+        padding-right: 0.6em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 20px;
+        font-weight: 900;
+        margin: 20px 0 0 0;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox p{
+        font-size: 12px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 3px;
+        margin: 20px 0 20px 0;
+    }
+    .introduceSectionThree2{
+        padding: 2.5em 6em 6em 6em;
+    }
+    .introduceSectionThree2 p{
+        font-size: 12px;
+        font-weight: 900;
+        line-height: 24px;
+    }
+    .introduceSectionThree2 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree2 .imgPBox img{
+        width: 26px;
+        height: 17px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree2 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 24px;
+    }
+    /* 3 */
+    .introduceSectionTwo3{
+        position: relative;
+    }
+    .introduceSectionTwo3 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 155px;
+        width: 35%;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox .col-phone-40{
+        padding-left: 5em;
+        padding-right: 0.6em;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 18px;
+        letter-spacing: 3px;
+        font-weight: 900;
+        margin: 12px 0 0 0;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox p{
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 5px;
+        margin: 15px 0 15px 0;
+    }
+    .introduceSectionThree3{
+        padding: 1.5em 6em 6em 6em;
+    }
+    .introduceSectionThree3 p{
+        font-size: 13px;
+        font-weight: 900;
+        line-height: 22px;
+    }
+    .introduceSectionThree3 ul{
+        font-size: 13px;
+        font-weight: 900;
+    }
+    .introduceSectionThree3 ul li{
+        margin-top: 1em;
+        line-height: 22px;
+    }
+    .introduceSectionThree3 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree3 .imgPBox img{
+        width: 30px;
+        height: 16px;
+        padding-top: 3px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree3 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 22px;
+    }
+}
+@media(min-width:992px){
+    .introduceSectionOne h1{
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+    .introduceSectionOne hr{
+        width: 55px;
+        height: 4px;
+    }
+    .introduceSectionOne p{
+        margin: 1.6em 0;
+        font-size: 18px;
+    }
+    .introduceSectionOne p a{
+        letter-spacing: 4px;
+        margin: 0 16px;
+        font-size: 18px;
+    }
+    .introduceSectionTwo .imgLongBox .imgBox img{
+        top: -28px;
+        left: 125px;
+        width: 37%;
+    }
+    .introduceSectionTwo .imgLongBox .longBox{
+        margin-top: 40px;
+    }
+    .introduceSectionTwo .imgLongBox .longBox .col-phone-40{
+        padding-left: 3em;
+        padding-right: 6em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .introduceSectionTwo .imgLongBox .longBox h2{
+        font-size: 24px;
+        letter-spacing: 4px;
+        margin: 45px 0 0 0;
+    }
+    .introduceSectionTwo .imgLongBox .longBox p{
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 3px;
+        margin: 20px 0 30px 0;
+    }
+    .introduceSectionThree{
+        padding: 3em 5.5em 5.5em 5.5em;
+    }
+    .introduceSectionThree p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .introduceSectionThree .imgPBox{
+        margin-top: 25px;
+    }
+    .introduceSectionThree .imgPBox img{
+        width: 22px;
+        height: 24px;
+        padding-top: 4px;
+        margin-right: 12px;
+    }
+    .introduceSectionThree .imgPBox p{
+        margin: 0;
+        letter-spacing: 3px;
+        line-height: 30px;
+    }
+    /* 2 */
+    .introduceSectionTwo2{
+        position: relative;
+    }
+    .introduceSectionTwo2 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -16px;
+        left: 205px;
+        width: 30%;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox .col-phone-40{
+        padding-left: 7em;
+        padding-right: 0.6em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 22px;
+        letter-spacing: 8px;
+        font-weight: 900;
+        margin: 20px 0 0 0;
+    }
+    .introduceSectionTwo2 .imgLongBox .longBox p{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 7px;
+        margin: 30px 0 30px 0;
+    }
+    .introduceSectionThree2{
+        padding: 2.5em 9em 9em 9em;
+    }
+    .introduceSectionThree2 p{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 30px;
+    }
+    .introduceSectionThree2 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree2 .imgPBox img{
+        width: 35px;
+        height: 17px;
+        padding-top: 5px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree2 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+    /* 3 */
+    .introduceSectionTwo3{
+        position: relative;
+    }
+    .introduceSectionTwo3 .imgLongBox .imgBox img{
+        position: absolute;
+        top: -20px;
+        left: 205px;
+        width: 30%;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox{
+        display: flex;
+        margin-top: 20px;
+        background-color: rgb(243, 243, 243);
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox .col-phone-40{
+        padding-left: 3em;
+        padding-right: 0.6em;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox h2{
+        color: rgb(188,143,143);
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: 900;
+        margin: 12px 0 30px 0;
+    }
+    .introduceSectionTwo3 .imgLongBox .longBox p{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 1px;
+        margin: 15px 0 15px 0;
+    }
+    .introduceSectionThree3{
+        padding: 1.5em 9em 9em 9em;
+    }
+    .introduceSectionThree3 p{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 26px;
+    }
+    .introduceSectionThree3 ul{
+        font-size: 8px;
+        font-weight: 900;
+    }
+    .introduceSectionThree3 ul li{
+        margin-top: 1em;
+    }
+    .introduceSectionThree3 .imgPBox{
+        display: flex;
+        margin-top: 20px;
+    }
+    .introduceSectionThree3 .imgPBox img{
+        width: 36px;
+        height: 18px;
+        padding-top: 4px;
+        margin-right: 5px;
+    }
+    .introduceSectionThree3 .imgPBox p{
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 26px;
+    }
+}

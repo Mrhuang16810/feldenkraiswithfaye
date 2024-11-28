@@ -39,6 +39,11 @@ main .mapContainer .mapContent .mapContentSmallp{
     padding-right: 5px;
     margin-bottom: 12px;
 }
+main .mapContainer .mapContent .mapContentSmallp a{
+    color: rgb(188,143,143);
+    font-weight: 900;
+    text-decoration: none;
+}
 @media(min-width:390px){
     main .mapContainer .mapTitle p{
         font-size: 12px;

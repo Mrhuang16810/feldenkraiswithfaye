@@ -1,3 +1,6 @@
+main{
+    padding-top: 30px;
+}
 main .index-cover{
     height: 200px;
     background-image: url("images/indexBig.png");
@@ -8,11 +11,11 @@ main section .qrCode{
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: rgb(243,243,243);
-}
-main section .qrCode{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
+
 main section .qrCode .qrCodeTitle p{
     font-size: 10px;
     text-align: center;
@@ -52,6 +55,9 @@ main section .qrCode span{
     }
 }
 @media(min-width:420px){
+    main{
+        padding-top: 40px;
+    }
     main .index-cover{
         height: 260px;
     }
@@ -68,6 +74,9 @@ main section .qrCode span{
     }
 }
 @media(min-width:576px){
+    main{
+        padding-top: 54px;
+    }
     main .index-cover{
         height: 360px;
     }
@@ -93,6 +102,9 @@ main section .qrCode span{
     }
 }
 @media(min-width:768px){
+    main{
+        padding-top: 60px;
+    }
     main .index-cover{
         height: 470px;
     }
@@ -108,6 +120,9 @@ main section .qrCode span{
     }
 }
 @media(min-width:992px){
+    main{
+        padding-top: 64px;
+    }
     main .index-cover{
         height: 610px;
     }

@@ -6,7 +6,7 @@
     font-size: 12px;
     font-weight: 900;
     margin-bottom: 0;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 .aboutMeMain .aboutMeTitleHr{
     height: 2px;
@@ -25,11 +25,12 @@
 }
 .aboutMeMain .threeBox{
     display: flex;
+    justify-content: space-around;
 }
 .aboutMeMain .threeBox hr{
     border: none;
     background-color: rgb(188,143,143);
-    height: 1.5px;
+    height: 5.5px;
 }
 .aboutMeMain .picSlogn{
     padding-top: 10px;

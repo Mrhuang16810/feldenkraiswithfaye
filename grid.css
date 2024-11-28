@@ -14,6 +14,14 @@ body{
     width: 100%;
     float: left;
 }
+.col-phone-90{
+    width: 90%;
+    float: left;
+}
+.col-phone-80{
+    width: 80%;
+    float: left;
+}
 .col-phone-75{
     width: 75%;
     float: left;
@@ -54,8 +62,20 @@ body{
     width: 20%;
     float: left;
 }
+.col-phone-19{
+    width: 19%;
+    float: left;
+}
 .col-phone-15{
     width: 15%;
+    float: left;
+}
+.col-phone-14{
+    width: 14%;
+    float: left;
+}
+.col-phone-10{
+    width: 10%;
     float: left;
 }
 /* 手機2 */

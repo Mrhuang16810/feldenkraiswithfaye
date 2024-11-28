@@ -95,6 +95,7 @@
 .classOrderMain .classOrderSectionTwo table tr .dataContent{
     font-size: 6px;
     letter-spacing: 2px;
+    height: 35px;
 }
 .classOrderMain .classOrderSectionTwo table tr .dataContentColor{
     background-color: rgb(188, 143, 143);

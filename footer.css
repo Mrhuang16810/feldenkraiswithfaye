@@ -11,6 +11,7 @@ footer .col-phone-100 .col-phone-70 span{
     font-weight: 500;
     font-size: 6px;
     margin: 0;
+    line-height: 12px;
     border-bottom: 2px dashed #fff;
     padding-bottom: 2px;
     margin-right: 10px;
@@ -85,17 +86,17 @@ footer .col-phone-100 .col-phone-30 a img{
     }
 }
 @media(min-width:992px){
-    footer .col-tablet-100{
+    footer .col-desktop-100{
         display: flex;
     }
-    footer .col-tablet-100 .col-tablet-40 a{
-        width: 52px;
-        height: 52px;
+    footer .col-desktop-100 .col-desktop-40 a{
+        width: 46px;
+        height: 46px;
         margin-top: 20px;
         margin-left: 45px;
     }
-    footer .col-tablet-100 .col-tablet-60 span{
-        font-size: 18px;
+    footer .col-desktop-100 .col-desktop-60 span{
+        font-size: 14px;
         line-height: 36px;
     }
 }

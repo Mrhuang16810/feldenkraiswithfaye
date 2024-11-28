@@ -23,7 +23,8 @@ nav .navTitleLink{
     background-image: url("images/logo.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80%;
+    width: 30%;
+    height: 70%;
     margin: 0;
     cursor: pointer;
 }
@@ -66,6 +67,12 @@ nav .nav-ul li a:hover{
 nav .nav-ul li .thisPageColor{
     color: rgb(188,143,143);
 }
+@media(min-width:390px){
+    nav .navTitleLink{
+        width: 29%;
+        height: 75%;
+    }
+}
 @media(min-width:420px){
     nav{
         height: 40px;
@@ -77,6 +84,10 @@ nav .nav-ul li .thisPageColor{
     }
     nav .nav-btn .fa-solid{
         font-size: 14px;
+    }
+    nav .navTitleLink{
+        width: 30%;
+        height: 68%;
     }
     nav .nav-ul{
         top: 40px;
@@ -119,6 +130,10 @@ nav .nav-ul li .thisPageColor{
     nav .nav-btn .fa-solid{
         font-size: 20px;
     }
+    nav .navTitleLink{
+        width: 28%;
+        height: 73%;
+    }
     nav .nav-ul{
         top: 60px;
         border-bottom-left-radius: 8px;
@@ -136,6 +151,10 @@ nav .nav-ul li .thisPageColor{
     nav{
         height: 64px;
     }
+    nav .navTitleLink{
+        width: 20%;
+        height: 65%;
+    }
     nav .nav-btn{
         display: none;
     }
@@ -150,5 +169,26 @@ nav .nav-ul li .thisPageColor{
     nav .nav-ul li{
         float: left;
         padding: 5px 5px 5px 0px;
+    }
+}
+@media(min-width:1024px){
+    nav .navTitleLink{
+        /* width: 15%; */
+        height: 60%;
+    }
+}
+@media(min-width:1024px){
+    nav .navTitleLink{
+        width: 18%;
+    }
+}
+@media(min-width:1366px){
+    nav .navTitleLink{
+        width: 15%;
+    }
+}
+@media(min-width:1440px){
+    nav .navTitleLink{
+        width: 12%;
     }
 }

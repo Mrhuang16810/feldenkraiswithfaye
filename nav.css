@@ -189,6 +189,7 @@ nav .nav-ul li .thisPageColor{
 }
 @media(min-width:1440px){
     nav .navTitleLink{
-        width: 12.5%;
+        width: 13%;
+        height: 65%;
     }
 }

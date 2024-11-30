@@ -456,9 +456,9 @@
     }
     .introduceSectionTwo2 .imgLongBox .imgBox img{
         position: absolute;
-        top: -16px;
+        top: 2px;
         left: 55px;
-        width: 45%;
+        width: 44%;
     }
     .introduceSectionTwo2 .imgLongBox .longBox{
         display: flex;

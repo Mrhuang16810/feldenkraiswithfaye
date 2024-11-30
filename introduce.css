@@ -59,9 +59,9 @@
 }
 .introduceSectionTwo3 .imgLongBox .imgBox img{
     position: absolute;
-    top: -16px;
-    left: 30px;
-    width: 55%;
+    top: -12px;
+    left: 35px;
+    width: 50%;
 }
 .introduceSectionTwo .imgLongBox .longBox{
     display: flex;
@@ -328,8 +328,8 @@
     .introduceSectionTwo3 .imgLongBox .imgBox img{
         position: absolute;
         top: -16px;
-        left: 50px;
-        width: 48%;
+        left: 60px;
+        width: 40%;
     }
     .introduceSectionTwo3 .imgLongBox .longBox{
         display: flex;
@@ -513,8 +513,8 @@
     .introduceSectionTwo3 .imgLongBox .imgBox img{
         position: absolute;
         top: -16px;
-        left: 60px;
-        width: 45%;
+        left: 75px;
+        width: 37%;
     }
     .introduceSectionTwo3 .imgLongBox .longBox{
         display: flex;
@@ -695,8 +695,8 @@
     .introduceSectionTwo3 .imgLongBox .imgBox img{
         position: absolute;
         top: -16px;
-        left: 105px;
-        width: 40%;
+        left: 125px;
+        width: 34%;
     }
     .introduceSectionTwo3 .imgLongBox .longBox{
         display: flex;
@@ -883,8 +883,8 @@
     .introduceSectionTwo3 .imgLongBox .imgBox img{
         position: absolute;
         top: -16px;
-        left: 155px;
-        width: 35%;
+        left: 195px;
+        width: 28%;
     }
     .introduceSectionTwo3 .imgLongBox .longBox{
         display: flex;
@@ -910,7 +910,7 @@
         margin: 15px 0 15px 0;
     }
     .introduceSectionThree3{
-        padding: 1.5em 6em 6em 6em;
+        padding: 2.5em 7em 7em 7em;
     }
     .introduceSectionThree3 p{
         font-size: 13px;
@@ -1072,8 +1072,8 @@
     .introduceSectionTwo3 .imgLongBox .imgBox img{
         position: absolute;
         top: -20px;
-        left: 205px;
-        width: 30%;
+        left: 255px;
+        width: 25%;
     }
     .introduceSectionTwo3 .imgLongBox .longBox{
         display: flex;
@@ -1099,7 +1099,7 @@
         margin: 15px 0 15px 0;
     }
     .introduceSectionThree3{
-        padding: 1.5em 9em 9em 9em;
+        padding: 3em 9em 9em 9em;
     }
     .introduceSectionThree3 p{
         font-size: 16px;

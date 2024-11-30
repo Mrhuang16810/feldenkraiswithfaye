@@ -47,15 +47,15 @@
 }
 .introduceSectionTwo .imgLongBox .imgBox img{
     position: absolute;
-    top: -16px;
-    left: 36px;
-    width: 38%;
+    top: -5px;
+    left: 43px;
+    width: 35%;
 }
 .introduceSectionTwo2 .imgLongBox .imgBox img{
     position: absolute;
-    top: -16px;
-    left: 30px;
-    width: 55%;
+    top: 8px;
+    left: 40px;
+    width: 50%;
 }
 .introduceSectionTwo3 .imgLongBox .imgBox img{
     position: absolute;
@@ -130,7 +130,7 @@
     margin: 5px 0 5px 0;
 }
 .introduceSectionThree{
-    padding: 1em;
+    padding: 0em 1em 1em 1em;
 }
 .introduceSectionThree2{
     padding: 1em;

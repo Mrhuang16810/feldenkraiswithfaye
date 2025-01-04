@@ -26,7 +26,7 @@
 .classOrderMain .classOrderSectionOne .sectionOneContent{
     padding-left: 15px;
 }
-.classOrderMain .classOrderSectionOne .sectionOneContent span{
+.classOrderMain .classOrderSectionOne .sectionOneContent span,.classOrderMain .classOrderSectionOne .sectionOneContent span a{
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 1px;
@@ -250,7 +250,7 @@
     .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 25px;
     }
-    .classOrderMain .classOrderSectionOne .sectionOneContent span{
+    .classOrderMain .classOrderSectionOne .sectionOneContent span,.classOrderMain .classOrderSectionOne .sectionOneContent span a{
         font-size: 13px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
@@ -307,7 +307,7 @@
     .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 40px;
     }
-    .classOrderMain .classOrderSectionOne .sectionOneContent span{
+    .classOrderMain .classOrderSectionOne .sectionOneContent span,.classOrderMain .classOrderSectionOne .sectionOneContent span a{
         font-size: 16px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
@@ -385,7 +385,7 @@
     .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 50px;
     }
-    .classOrderMain .classOrderSectionOne .sectionOneContent span{
+    .classOrderMain .classOrderSectionOne .sectionOneContent span,.classOrderMain .classOrderSectionOne .sectionOneContent span a{
         font-size: 18px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
@@ -471,7 +471,7 @@
     .classOrderMain .classOrderSectionOne .sectionOneContent{
         padding-left: 65px;
     }
-    .classOrderMain .classOrderSectionOne .sectionOneContent span{
+    .classOrderMain .classOrderSectionOne .sectionOneContent span,.classOrderMain .classOrderSectionOne .sectionOneContent span a{
         font-size: 20px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{

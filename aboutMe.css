@@ -22,6 +22,7 @@
     margin: 0;
     font-size: 8px;
     margin-top: 5px;
+    letter-spacing: 5px;
 }
 .aboutMeMain .threeBox{
     display: flex;
@@ -60,18 +61,22 @@
     position: absolute;
     top: 15px;
     right: 0;
+    display: flex;
+    align-items: center;
 }
-.aboutMeMain .picSlogn .col-phone-60 .col-phone-30 p{
-    font-size: 10px;
-    font-weight: 900;
-    margin-bottom: 0;
-    text-align: center;
+.aboutMeMain .picSlogn .col-phone-60 .col-phone-30{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutMeMain .picSlogn .col-phone-60 .col-phone-30 img{
+    width: 50%;
 }
 .aboutMeMain .picSlogn .col-phone-60 .col-phone-30 hr{
-    height: 3px;
+    height: 1px;
     border: none;
     background-color: rgb(188,143,143);
-    width: 35px;
+    width: 22px;
 }
 .aboutMeMain .picSlogn .col-phone-60 .col-phone-70 p{
     font-size: 8px;
@@ -105,10 +110,10 @@
         font-size: 12px;
     }
     .aboutMeMain .picSlogn .col-phone2-60 .col-phone2-40 hr{
-        height: 3px;
+        height: 1.5px;
         border: none;
         background-color: rgb(188,143,143);
-        width: 35px;
+        width: 30px;
     }
     .aboutMeMain .picSlogn .col-phone2-60 .col-phone2-60 p{
         font-size: 9px;
@@ -135,6 +140,10 @@
     }
     .aboutMeMain .aboutMeSlogan{
         font-size: 10px;
+    }
+    .aboutMeMain .picSlogn .col-phone2-60 .col-phone2-40 hr{
+        width: 55px;
+        height: 2px;
     }
     .aboutMeMain .picSlogn .col-phone2-60 .col-phone2-40 p{
         font-size: 14px;
@@ -176,11 +185,9 @@
     .aboutMeMain .aboutMeSlogan{
         font-size: 12px;
     }
-    .aboutMeMain .picSlogn .col-tablet-50 .col-tablet-40 p{
-        font-size: 16px;
-    }
     .aboutMeMain .picSlogn .col-tablet-50 .col-tablet-40 hr{
-        width: 40px;
+        width: 65px;
+        height: 2.5px;
     }
     .aboutMeMain .picSlogn .col-tablet-50 .col-tablet-60 p{
         font-size: 13px;
@@ -216,11 +223,8 @@
     .aboutMeMain .aboutMeSlogan{
         font-size: 14px;
     }
-    .aboutMeMain .picSlogn .col-desktop-50 .col-desktop-40 p{
-        font-size: 18px;
-    }
     .aboutMeMain .picSlogn .col-desktop-50 .col-desktop-40 hr{
-        width: 43px;
+        width: 73px;
     }
     .aboutMeMain .picSlogn .col-desktop-50 .col-desktop-60 p{
         font-size: 16px;

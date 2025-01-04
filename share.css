@@ -10,10 +10,11 @@
 }
 .sectionOne .btnContainer{
     display: flex;
+    justify-content: right;
 }
 .sectionOne .btnContainer a{
     font-weight: 900;
-    font-size: 4px;
+    font-size: 3px;
     text-decoration: none;
     background-color: rgb(182,182,182);
     color: #fff;
@@ -25,7 +26,29 @@
     box-shadow: 0.5px 0.5px 1px #000;
 }
 .sectionTwo{
-    margin-left: 40px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+.sectionTwo .sectionTwo1{
+    padding-left: 5px;
+    padding-right: 10px;
+    border-left: 3px solid rgb(182,182,182);
+}
+.sectionTwo .sectionTwo2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    border-left: 3px solid rgb(182,182,182);
+}
+.sectionTwo .sectionTwo3{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    border-left: 3px solid rgb(182,182,182);
+}
+.sectionTwo .sectionTwo4{
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 25px;
@@ -35,14 +58,18 @@
     margin-bottom: 10px;
     position: relative;
 }
-.sectionTwo .row .yearP{
-    position: absolute;
-    left: -48px;
-    font-size: 5px;
+.sectionTwo .row .fourTitle{
+    position: sticky;
+    border: 2px dashed rgb(182,182,182);
+    background-color: #fff;
+    top: 50px;
+    width: 35px;
+    text-align: center;
+    font-size: 4px;
     font-weight: 900;
     color: rgb(182,182,182);
 }
-.sectionTwo .row .yearP p{
+.sectionTwo .row .fourTitle p{
     margin: 0;
     letter-spacing: 2px;
 }
@@ -55,12 +82,12 @@
 .sectionTwo .row .col-phone-20{
     padding-top: 5px;
 }
-.sectionTwo .row .col-phone-80{
+.sectionTwo .row .col-phone-65{
     display: flex;
     flex-direction: column;
     align-items: left;
 }
-.sectionTwo .row .col-phone-80 .articleTitle{
+.sectionTwo .row .col-phone-65 .articleTitle{
     font-size: 8px;
     color: rgb(188,143,143);
     padding-left: 10px;
@@ -71,33 +98,33 @@
 .sectionTwo .row .articleLeftTitle .articleTitle{
     padding-left: 0;
 }
-.sectionTwo .row .col-phone-80 hr{
+.sectionTwo .row .col-phone-65 hr{
     background-color: rgb(188,143,143);
     height: 1px;
     border: none;
     margin: 0;
 }
-.sectionTwo .row .col-phone-80 .articleBox{
+.sectionTwo .row .col-phone-65 .articleBox{
     padding-left: 30px;
 }
-.sectionTwo .row .col-phone-80 .articleBox .allArticle,.sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft{
+.sectionTwo .row .col-phone-65 .articleBox .allArticle,.sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft{
     display: none;
 }
-.sectionTwo .row .col-phone-80 .articleBox .article,
-.sectionTwo .row .col-phone-80 .articleBox .article p,
-.sectionTwo .row .col-phone-80 .articleBox .allArticle p,
-.sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft,
-.sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft p,
-.sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p{
+.sectionTwo .row .col-phone-65 .articleBox .article,
+.sectionTwo .row .col-phone-65 .articleBox .article p,
+.sectionTwo .row .col-phone-65 .articleBox .allArticle p,
+.sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft,
+.sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft p,
+.sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p{
     font-size: 6px;
     letter-spacing: 1px;
     margin-bottom: 0;
     font-weight: 900;
 }
-.sectionTwo .row .col-phone-80 .articleBox .article span,
-.sectionTwo .row .col-phone-80 .articleBox .allArticle p span,
-.sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft span,
-.sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p span{
+.sectionTwo .row .col-phone-65 .articleBox .article span,
+.sectionTwo .row .col-phone-65 .articleBox .allArticle p span,
+.sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft span,
+.sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p span{
     color: rgb(188,143,143);
     font-size: 6px;
     font-weight: 900;
@@ -113,14 +140,29 @@
         padding-bottom: 3px;
         background-color: #fff;
     }
+    .sectionOne .btnContainer a{
+        font-size: 4px;
+        padding: 5px;
+        margin-right: 8px;
+        letter-spacing: 0.6px;
+    }
     .sectionTwo{
         padding-top: 30px;
-        margin-left: 50px;
+        margin: 0;
     }
-    .sectionTwo .row .col-phone-80 hr{
+    .sectionTwo .row .fourTitle{
+        position: sticky;
+        border: 2px dashed rgb(182,182,182);
+        background-color: #fff;
+        top: 65px;
+        width: 40px;
+        font-size: 4px;
+        text-align: center;
+    }
+    .sectionTwo .row .col-phone-65 hr{
         height: 2px;
     }
-    .sectionTwo .row .col-phone-80 .articleTitle{
+    .sectionTwo .row .col-phone-65 .articleTitle{
         font-size: 9px;
         padding-left: 15px;
         letter-spacing: 2px;
@@ -128,18 +170,18 @@
     .sectionTwo .row .articleLeftTitle .articleTitle{
         padding-left: 0;
     }
-    .sectionTwo .row .col-phone-80 .articleBox .article,
-    .sectionTwo .row .col-phone-80 .articleBox .article p,
-    .sectionTwo .row .col-phone-80 .articleBox .allArticle p,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft p,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p{
+    .sectionTwo .row .col-phone-65 .articleBox .article,
+    .sectionTwo .row .col-phone-65 .articleBox .article p,
+    .sectionTwo .row .col-phone-65 .articleBox .allArticle p,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft p,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p{
         font-size: 7px;
     }
-    .sectionTwo .row .col-phone-80 .articleBox .article span,
-    .sectionTwo .row .col-phone-80 .articleBox .allArticle p span,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft span,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p span{
+    .sectionTwo .row .col-phone-65 .articleBox .article span,
+    .sectionTwo .row .col-phone-65 .articleBox .allArticle p span,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft span,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p span{
         font-size: 7px;
     }
 }
@@ -155,45 +197,50 @@
         font-size: 6px;
         padding: 8px;
         margin-right: 8px;
-        letter-spacing: 0.5px;
+        letter-spacing: 1.5px;
     }
     .sectionTwo{
-        margin-left: 75px;
+        margin: 0;
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 40px;
     }
-    .sectionTwo .row .yearP{
-        left: -80px;
-        font-size: 9px;
+    .sectionTwo .row .fourTitle{
+        font-size: 8px;
+        position: sticky;
+        border: 3px dashed rgb(182,182,182);
+        background-color: #fff;
+        top: 88px;
+        width: 65px;
+        text-align: center;
     }
-    .sectionTwo .row .yearP p{
+    .sectionTwo .row .fourTitle p{
         margin: 0;
         letter-spacing: 2px;
     }
-    .sectionTwo .row .col-phone-80 .articleTitle{
+    .sectionTwo .row .col-phone-65 .articleTitle{
         font-size: 14px;
         padding-left: 25px;
     }
     .sectionTwo .row .articleLeftTitle .articleTitle{
         padding-left: 0;
     }
-    .sectionTwo .row .col-phone-80 .articleBox{
+    .sectionTwo .row .col-phone-65 .articleBox{
         padding-left: 60px;
     }
-    .sectionTwo .row .col-phone-80 .articleBox .article,
-    .sectionTwo .row .col-phone-80 .articleBox .article p,
-    .sectionTwo .row .col-phone-80 .articleBox .allArticle p,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft p,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p{
+    .sectionTwo .row .col-phone-65 .articleBox .article,
+    .sectionTwo .row .col-phone-65 .articleBox .article p,
+    .sectionTwo .row .col-phone-65 .articleBox .allArticle p,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft p,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p{
         font-size: 11px;
         letter-spacing: 2px;
     }
-    .sectionTwo .row .col-phone-80 .articleBox .article span,
-    .sectionTwo .row .col-phone-80 .articleBox .allArticle p span,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft span,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p span{
+    .sectionTwo .row .col-phone-65 .articleBox .article span,
+    .sectionTwo .row .col-phone-65 .articleBox .allArticle p span,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft span,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p span{
         font-size: 11px;
         line-height: 20px;
     }
@@ -207,26 +254,31 @@
         background-color: #fff;
     }
     .sectionOne .btnContainer a{
-        font-size: 8px;
+        font-size: 9px;
         padding: 10px;
         margin-right: 12px;
-        letter-spacing: 0.5px;
+        letter-spacing: 1px;
     }
     .sectionTwo{
-        margin-left: 90px;
+        margin: 0;
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 50px;
     }
-    .sectionTwo .row .yearP{
-        left: -105px;
-        font-size: 13px;
+    .sectionTwo .row .fourTitle{
+        font-size: 11px;
+        position: sticky;
+        border: 3px dashed rgb(182,182,182);
+        background-color: #fff;
+        top: 98px;
+        width: 85px;
+        text-align: center;
     }
-    .sectionTwo .row .yearP p{
+    .sectionTwo .row .fourTitle p{
         margin: 0;
         letter-spacing: 2px;
     }
-    .sectionTwo .row .col-phone-80 .articleTitle{
+    .sectionTwo .row .col-phone-65 .articleTitle{
         font-size: 16px;
         padding-left: 30px;
         letter-spacing: 4px;
@@ -234,22 +286,22 @@
     .sectionTwo .row .articleLeftTitle .articleTitle{
         padding-left: 0;
     }
-    .sectionTwo .row .col-phone-80 .articleBox{
+    .sectionTwo .row .col-phone-65 .articleBox{
         padding-left: 70px;
     }
-    .sectionTwo .row .col-phone-80 .articleBox .article,
-    .sectionTwo .row .col-phone-80 .articleBox .article p,
-    .sectionTwo .row .col-phone-80 .articleBox .allArticle p,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft p,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p{
+    .sectionTwo .row .col-phone-65 .articleBox .article,
+    .sectionTwo .row .col-phone-65 .articleBox .article p,
+    .sectionTwo .row .col-phone-65 .articleBox .allArticle p,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft p,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p{
         font-size: 12px;
         letter-spacing: 3px;
     }
-    .sectionTwo .row .col-phone-80 .articleBox .article span,
-    .sectionTwo .row .col-phone-80 .articleBox .allArticle p span,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft span,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p span{
+    .sectionTwo .row .col-phone-65 .articleBox .article span,
+    .sectionTwo .row .col-phone-65 .articleBox .allArticle p span,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft span,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p span{
         font-size: 12px;
         line-height: 24px;
     }
@@ -262,30 +314,38 @@
         padding-bottom: 5px;
         background-color: #fff;
     }
+    .sectionOne .btnContainer{
+        justify-content: left;
+    }
     .sectionOne .btnContainer a{
-        font-size: 10px;
+        font-size: 12px;
         padding: 12px;
         margin-right: 14px;
-        letter-spacing: 0px;
+        letter-spacing: 2px;
     }
     .sectionTwo{
-        margin-left: 100px;
+        margin: 0px;
         padding-top: 70px;
         padding-left: 25px;
         padding-right: 25px;
     }
-    .sectionTwo .row .yearP{
-        left: -120px;
-        font-size: 16px;
+    .sectionTwo .row .fourTitle{
+        font-size: 13px;
+        position: sticky;
+        border: 3px dashed rgb(182,182,182);
+        background-color: #fff;
+        top: 106px;
+        width: 90px;
+        text-align: center;
     }
-    .sectionTwo .row .yearP p{
+    .sectionTwo .row .fourTitle p{
         margin: 0;
         letter-spacing: 2px;
     }
-    .sectionTwo .row .col-phone-80 hr{
+    .sectionTwo .row .col-phone-65 hr{
         height: 3px;
     }
-    .sectionTwo .row .col-phone-80 .articleTitle{
+    .sectionTwo .row .col-phone-65 .articleTitle{
         font-size: 20px;
         padding-left: 40px;
         letter-spacing: 6px;
@@ -293,22 +353,22 @@
     .sectionTwo .row .articleLeftTitle .articleTitle{
         padding-left: 0;
     }
-    .sectionTwo .row .col-phone-80 .articleBox{
+    .sectionTwo .row .col-phone-65 .articleBox{
         padding-left: 90px;
     }
-    .sectionTwo .row .col-phone-80 .articleBox .article,
-    .sectionTwo .row .col-phone-80 .articleBox .article p,
-    .sectionTwo .row .col-phone-80 .articleBox .allArticle p,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft p,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p{
+    .sectionTwo .row .col-phone-65 .articleBox .article,
+    .sectionTwo .row .col-phone-65 .articleBox .article p,
+    .sectionTwo .row .col-phone-65 .articleBox .allArticle p,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft p,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p{
         font-size: 16px;
         letter-spacing: 5px;
     }
-    .sectionTwo .row .col-phone-80 .articleBox .article span,
-    .sectionTwo .row .col-phone-80 .articleBox .allArticle p span,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .articleLeft span,
-    .sectionTwo .row .col-phone-80 .articleLeftBox .allArticleLeft p span{
+    .sectionTwo .row .col-phone-65 .articleBox .article span,
+    .sectionTwo .row .col-phone-65 .articleBox .allArticle p span,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft span,
+    .sectionTwo .row .col-phone-65 .articleLeftBox .allArticleLeft p span{
         font-size: 16px;
         line-height: 30px;
     }

@@ -9,7 +9,6 @@
     background-color: #fff;
 }
 .sectionOne .btnContainer{
-    width: 100%;
     display: flex;
     justify-content: right;
 }
@@ -20,7 +19,6 @@
     background-color: rgb(182,182,182);
     padding: 2px;
     text-align: center;
-    margin-top: 8px;
     margin-right: 5px;
     margin-bottom: 8px;
     border-radius: 5px;
@@ -38,25 +36,17 @@
     padding-top: 34px;
 }
 .sectionTwo .sectionTwo1{
-    padding-left: 10px;
-    padding-right: 10px;
     border-left: 3px solid rgb(182,182,182);
 }
 .sectionTwo .sectionTwo2{
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 25px;
     border-left: 3px solid rgb(182,182,182);
 }
 .sectionTwo .sectionTwo3{
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 25px;
     border-left: 3px solid rgb(182,182,182);
 }
 .sectionTwo .sectionTwo4{
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 25px;
     border-left: 3px solid rgb(182,182,182);
 }
@@ -66,6 +56,7 @@
 }
 .sectionTwo .row .fourTitle{
     position: sticky;
+    margin-left: 5px;
     border: 2px dashed rgb(182,182,182);
     background-color: #fff;
     top: 60px;

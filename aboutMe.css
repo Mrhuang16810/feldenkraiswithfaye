@@ -90,6 +90,15 @@
     height: 10px;
     border: none;
 }
+.aboutMeMain .picSlogn .picContent .picContentBrDesktop{
+    display: none;
+}
+.aboutMeMain .picSlogn .picContent .picContentBrDesktop3{
+    display: none;
+}
+.aboutMeMain .picSlogn .picContent .picContentBrDesktop4{
+    display: none;
+}
 @media(min-width:420px){
     .aboutMeMain{
         padding-top: 40px;
@@ -122,10 +131,23 @@
         line-height: 14px;
         font-weight: 900;
     } 
+    .aboutMeMain .picSlogn .col-phone-60 .col-phone-70 p{
+        font-size: 8px;
+        line-height: 16px;
+    }
     .aboutMeMain .picSlogn .col-phone2-60 .col-phone2-60 hr{
         margin: 0;
         height: 10px;
         border: none;
+    }
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop{
+        display: block;
+    }
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop2{
+        display: none;
+    }
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop3{
+        display: none;
     }
 }
 @media(min-width:576px){
@@ -155,6 +177,10 @@
     .aboutMeMain .picSlogn .col-phone2-60 .col-phone2-60 hr{
         height: 12px;
     }
+    .aboutMeMain .picSlogn .col-phone-60 .col-phone-70 p{
+        font-size: 12px;
+        line-height: 24px;
+    }
     .aboutMeMain .picSlogn .picContent img{
         width: 43%;
         padding-right: 10px;
@@ -167,7 +193,10 @@
     .aboutMeMain .picSlogn .picContent .picContentBr{
         display: block;
     }
-    .aboutMeMain .picSlogn .picContent .picContentBrDesktop{
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop2{
+        display: block;
+    }
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop3{
         display: none;
     }
 }
@@ -196,6 +225,10 @@
     .aboutMeMain .picSlogn .col-tablet-50 .col-tablet-60 hr{
         height: 16px;
     }
+    .aboutMeMain .picSlogn .col-phone-60 .col-phone-70 p{
+        font-size: 14px;
+        line-height: 28px;
+    }
     .aboutMeMain .picSlogn .picContent img{
         width: 50%;
         padding-right: 15px;
@@ -206,6 +239,9 @@
         letter-spacing: 4px;
     }
     .aboutMeMain .picSlogn .picContent .picContentBrDesktop{
+        display: none;
+    }
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop3{
         display: block;
     }
 }
@@ -230,6 +266,10 @@
         font-size: 16px;
         line-height: 24px;
     } 
+    .aboutMeMain .picSlogn .col-phone-60 .col-phone-70 p{
+        font-size: 16px;
+        line-height: 32px;
+    }
     .aboutMeMain .picSlogn .col-desktop-50 .col-desktop-60 hr{
         height: 14px;
     }
@@ -241,5 +281,8 @@
         font-size: 18px;
         line-height: 28px;
         letter-spacing: 5px;
+    }
+    .aboutMeMain .picSlogn .picContent .picContentBrDesktop4{
+        display: block;
     }
 }

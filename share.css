@@ -304,6 +304,11 @@
         line-height: 24px;
     }
 }
+@media(min-width:810px){
+    .sectionTwo .row .fourTitle{
+        top: 112px;
+    }
+}
 @media(min-width:992px){
     .sectionOne{
         position: fixed;

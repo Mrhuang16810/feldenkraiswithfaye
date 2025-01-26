@@ -57,6 +57,26 @@
     letter-spacing: 2px;
     margin-bottom: 14px;
 }
+.aboutMeMain .picSlogn .aboutPicContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMeMain .picSlogn .picContent .aboutPicContent .stuFayePic img{
+    width: 100%;
+    margin-bottom: 3px;
+}
+.aboutMeMain .picSlogn .picContent .aboutPicContent .aboutFayeTxt{
+    font-size: 6px;
+    line-height: 14px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.aboutMeMain .picSlogn .picContent .aboutPicContent .stuTxt{
+    font-size: 6px;
+    margin-left: 12px;
+    line-height: 10px;
+}
 .aboutMeMain .picSlogn .col-phone-60{
     position: absolute;
     top: 15px;
@@ -140,6 +160,19 @@
         height: 10px;
         border: none;
     }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .stuTxt{
+        font-size: 8px;
+        margin-left: 14px;
+        line-height: 14px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .stuFayePic img{
+        margin-bottom: 3px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .aboutFayeTxt{
+        font-size: 8px;
+        line-height: 18px;
+        margin-top: 0px;
+    }
     .aboutMeMain .picSlogn .picContent .picContentBrDesktop{
         display: block;
     }
@@ -190,6 +223,20 @@
         line-height: 16px;
         letter-spacing: 3px;
     }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .stuTxt{
+        font-size: 12px;
+        margin-left: 18px;
+        line-height: 18px;
+        margin-top: 0px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .stuFayePic img{
+        margin-bottom: 5px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .aboutFayeTxt{
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: 0px;
+    }
     .aboutMeMain .picSlogn .picContent .picContentBr{
         display: block;
     }
@@ -238,6 +285,21 @@
         line-height: 22px;
         letter-spacing: 4px;
     }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .stuTxt{
+        font-size: 14px;
+        margin-left: 22px;
+        line-height: 26px;
+        margin-top: 0px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .stuFayePic img{
+        margin-bottom: 6px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .aboutFayeTxt{
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
     .aboutMeMain .picSlogn .picContent .picContentBrDesktop{
         display: none;
     }
@@ -281,6 +343,21 @@
         font-size: 18px;
         line-height: 28px;
         letter-spacing: 5px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .stuTxt{
+        font-size: 18px;
+        margin-left: 26px;
+        line-height: 32px;
+        margin-top: 0px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .stuFayePic img{
+        margin-bottom: 8px;
+    }
+    .aboutMeMain .picSlogn .picContent .aboutPicContent .aboutFayeTxt{
+        font-size: 18px;
+        line-height: 36px;
+        margin-left: 20px;
+        margin-top: 0px;
     }
     .aboutMeMain .picSlogn .picContent .picContentBrDesktop4{
         display: block;

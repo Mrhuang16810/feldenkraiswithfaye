@@ -7,6 +7,30 @@ main .index-cover{
     background-size: cover;
     background-repeat: no-repeat;
 }
+main section .introduction{
+    margin-top: 5px;
+    background-color: rgb(243,243,243);
+    padding-bottom: 3px;
+}
+main section .introduction p{
+    font-size: 6px;
+    line-height: 10px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color: rgb(128,128,128);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main section .introduction p span{
+    font-size: 9px;
+}
+main section .introduction p a{
+    text-decoration: none;
+    color: rgb(188,143,143);
+}
 main section .qrCode{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -15,7 +39,6 @@ main section .qrCode{
     justify-content: center;
     align-items: center;
 }
-
 main section .qrCode .qrCodeTitle p{
     font-size: 10px;
     text-align: center;
@@ -53,6 +76,20 @@ main section .qrCode span{
     main section .qrCode span{
         font-size: 7px;
     }
+    main section .introduction{
+        padding-bottom: 3px;
+    }
+    main section .introduction p{
+        font-size: 7px;
+        line-height: 12px;
+        letter-spacing: 3px;
+        margin-top: 3px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    main section .introduction p span{
+        font-size: 10px;
+    }
 }
 @media(min-width:420px){
     main{
@@ -71,6 +108,18 @@ main section .qrCode span{
     main section .qrCode span{
         font-size: 8px;
         font-weight: 900;
+    }
+    main section .introduction{
+        padding-bottom: 5px;
+    }
+    main section .introduction p{
+        font-size: 8px;
+        line-height: 14px;
+        letter-spacing: 3px;
+        margin-top: 3px;
+    }
+    main section .introduction p span{
+        font-size: 12px;
     }
 }
 @media(min-width:576px){
@@ -100,6 +149,20 @@ main section .qrCode span{
         font-size: 10px;
         letter-spacing: 2px;
     }
+    main section .introduction{
+        padding-bottom: 5px;
+    }
+    main section .introduction p{
+        font-size: 10px;
+        line-height: 18px;
+        letter-spacing: 3px;
+        margin-top: 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    main section .introduction p span{
+        font-size: 14px;
+    }
 }
 @media(min-width:768px){
     main{
@@ -117,6 +180,20 @@ main section .qrCode span{
         font-size: 11px;
         letter-spacing: 4px;
         line-height: 18px;
+    }
+    main section .introduction{
+        padding-bottom: 5px;
+    }
+    main section .introduction p{
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 3px;
+        margin-top: 3px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    main section .introduction p span{
+        font-size: 16px;
     }
 }
 @media(min-width:992px){
@@ -136,5 +213,19 @@ main section .qrCode span{
         font-size: 13px;
         letter-spacing: 5px;
         line-height: 20px;
+    }
+    main section .introduction{
+        padding-bottom: 5px;
+    }
+    main section .introduction p{
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 3px;
+        margin-top: 3px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    main section .introduction p span{
+        font-size: 18px;
     }
 }

@@ -28,6 +28,9 @@ nav .navTitleLink{
     margin: 0;
     cursor: pointer;
 }
+nav a .navLogo{
+    height: 100%;
+}
 nav .navTitleLink h1{
     text-indent: 101%;
     white-space: nowrap;

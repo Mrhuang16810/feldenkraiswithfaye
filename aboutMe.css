@@ -77,6 +77,10 @@
     margin-left: 12px;
     line-height: 10px;
 }
+.aboutMeMain .picSlogn .picContent .aboutPicContent .stuTxt a{
+    color: rgb(188,143,143);
+    text-decoration: none;
+}
 .aboutMeMain .picSlogn .col-phone-60{
     position: absolute;
     top: 15px;

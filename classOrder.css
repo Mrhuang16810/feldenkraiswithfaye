@@ -34,6 +34,10 @@
 }
 .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
     padding-left: 40px;
+    padding-right: 40px;
+}
+.classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside .classProduce{
+    line-height: 30px;
 }
 .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
     font-size: 9px;
@@ -180,6 +184,10 @@
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 50px;
+        padding-right: 50px;
+    }
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside .classProduce{
+        line-height: 25px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 10px;
@@ -255,6 +263,7 @@
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 55px;
+        padding-right: 55px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 11px;
@@ -312,6 +321,7 @@
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 75px;
+        padding-right: 75px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 12px;
@@ -390,6 +400,10 @@
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 85px;
+        padding-right: 85px;
+    }
+    .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside .classProduce{
+        line-height: 35px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 14px;
@@ -476,6 +490,7 @@
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside{
         padding-left: 105px;
+        padding-right: 105px;
     }
     .classOrderMain .classOrderSectionOne .sectionOneContent .sectionOneContentInside p{
         font-size: 16px;

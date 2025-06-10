@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-phone-100 row">
                     <div class="col-phone-60 col-phone2-57 col-tablet-57 col-desktop-55"></div>
-                    <div class="col-phone-30">
+                    <div class="col-phone-30" data-aos="fade-left">
                         <h2>費登奎斯式瑜伽</h2>
                         <p>結合了「費登奎斯方法」的瑜珈課程。</p>
                     </div>
@@ -55,7 +55,8 @@
             </div>
         </section>
         <section class="introduceSectionThree">
-            <div class="imgPBox">
+            <div data-aos="fade-left">
+                <div class="imgPBox">
                 <img src="images/開頭小框.png" alt="開頭小框">
                 <p>費登奎斯式瑜珈，是Faye集結費登奎斯身心教育與哈達瑜珈系統自成一格的練習方式。<br>這不是獨創的派別或品牌，只是個人經驗的累積下，豐盛的分享Faye是如何將自己的學習過程剖解呈現在課堂上。<br>教學上，不強調難度艱深的高表演性質的瑜珈體位法，不想把學生累倒的瑜珈運動課，深切的意圖是，帶領學生品嘗自己如何創造出自己的瑜珈練習經驗。<br>每經過一段時間的堆疊，就會發現自己的變化，無論是空間的改變、時間的推移，不同時空的生活歷練就會對於自我的修練這條路帶來更激勵的視角。<br><br>於是，叫做費登奎斯式瑜珈的混沌湯，這底蘊下，漸漸地，區分出幾道層次：</p>
             </div>
@@ -64,7 +65,10 @@
                 <li>｜修復呼吸｜在動中覺察課程的開始、之間的休息，以及結束，經常在仰躺姿中掃描（SCAN）來進行自我觀察對照內化之用，有點像佛陀倡導的正念或佛教的內觀或禪。讓大腦能以單純清淨放鬆的品質，重整與修復整日與外界的接觸下各種紛擾與散亂。擇選了適合的瑜珈體位法，在晚間來進行的靜心、冥想、呼吸的練習，享受一日下來的沉靜，培養良好的睡眠經驗。</li>
                 <li>｜串連流動｜傳統的哈達瑜珈是很靜態去進行個別的體位法，但當代瑜珈融合了體操韻律的節奏，以儀式性的Vinyasa(用特定呼吸特定方式來進行體位法本身與其他體位法的之間的連動)來串連流動體位法。動本身，是活的表徵，用多樣選擇性與可反轉性，讓體位法間的變化更加活潑，也為一日的開創滿滿的活力能量。</li>
             </ul>
-            <div class="imgPBox">
+            </div>
+            
+            <div data-aos="fade-left">
+                <div class="imgPBox">
                 <img src="images/開頭小框.png" alt="開頭小框">
                 <p>在這個課程，您將可以學習.......</p>
             </div>
@@ -76,6 +80,8 @@
                 <li>培養覺察能力及配合生物力學，自然發酵成體位法的運作模式。</li>
                 <li>理解與組織體位法更親近自我在練習當下的能力。</li>
             </ul>
+            </div>
+            
         </section>
     </main>
     <footer class="row">
@@ -100,6 +106,28 @@
                 $(".nav-ul").slideToggle(1000);
             })
         })
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({ 
+            // ─── 全域設定 ─── 
+            disable: false, // 何時停用 AOS：可填 'phone' / 'tablet' / 'mobile'，或直接給布林值、表達式、函式 
+            startEvent: 'DOMContentLoaded',// AOS 什麼事件被觸發時才開始初始化 
+            initClassName: 'aos-init', // 元素在初始化完成後會先加上的類名 
+            animatedClassName: 'aos-animate', // 動畫正式啟動時套用的類名 
+            useClassNames: false, // 若設為 true，會把 `data-aos` 的值做為類名，在滾動時一併加上 
+            disableMutationObserver: false,// 是否關閉 MutationObserver 自動偵測 DOM 變動（進階） 
+            debounceDelay: 50, // 視窗尺寸改變時的 debounce 間隔（毫秒） 
+            throttleDelay: 99, // 滾動事件的throttle 間隔（毫秒） 
+            // ─── 可用 `data-aos-*` 覆寫的項目 ─── 
+            offset: 120, // 觸發動畫時，元素與視窗的距離（px）120~150 
+            delay: 0, // 動畫延遲 0–3000 ms，步進 50 ms （最好不要下）
+            duration: 800, // 動畫時長 0–3000 ms，步進 50 ms 可調整成400~800（0.4~0.8秒）
+            easing: 'ease', // 動畫預設 easing 函式 
+            once: false, // true 表示動畫只在第一次向下滾動時播放 （動畫只跑一次false  往上再往下滾動時重新動畫一次true）
+            mirror: true, // true 表示滾過元素後向上滑回可再次播放（鏡像效果） 
+            anchorPlacement: 'top-bottom', // 判定元素相對視窗的位置來觸發動畫，例如 'top-bottom' 代表元素頂端到視窗底端 
+            }); 
     </script>
 </body>
 </html>

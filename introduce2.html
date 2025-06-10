@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-phone-100 row">
                     <div class="col-phone-60 col-phone2-57 col-tablet-57 col-desktop-55"></div>
-                    <div class="col-phone-30">
+                    <div class="col-phone-30" data-aos="fade-left">
                         <h2>動中覺察</h2>
                         <p>在團體中進行自我探索、自我認識、自我修復的課程。</p>
                     </div>
@@ -55,7 +55,7 @@
             </div>
         </section>
         <section class="introduceSectionThree">
-            <div class="imgPBox">
+            <div class="imgPBox" data-aos="fade-left">
                 <img src="images/開頭小框.png" alt="開頭小框">
                 <p>「動中覺察 (ATM) 」的團體課程，運用我說你聽的學習方式，取代帶動唱的口令動作，引發聽覺上的好奇心，在動作中，投注思考與想法、身體感知上的感覺、心理層面的感受、啟發注意力或想像力等元素，與環境的相互作用下，重整行動與動作的功能，改善對自我的意象，及重建與他人、環境、社會的良好關係。<br><br>營造安全舒適的情境下，以不強迫自己「做到位」，緩慢的步調、愉悅的心情、鬆柔的專注，在自己的速度和舒適範圍內來做動作。<br><br>這樣的學習方式，讓全身、神經系統、肌肉組織和骨骼結構在動作與動作間，有足夠的時間回應，增進動作的容易度和輕鬆度，使得學習的過程是自發與平和。<br><br>探索自己的動作習慣，喚醒感官敏銳度，提高動作的輕盈和優雅，也能適性地建立屬於自己不同於慣性的新行為模式與選擇力。<br><br>這樣的品質能讓人在如何使用自己的身心方面，透過動作的演繹得以培養更精確的自發性能力，產生了深遠而正面積極的改變。<br><br>最大效益無論是在提高對身體的認識或增進身體技能、還是在面對身體病痛、心理情緒的課題上，都能夠自然有機的進步與改善。<br><br>於是，時不時在課堂中，與他人互動，透過雙手碰觸下增進覺察與觀察能力；並且，讓自己沉靜下來，與自己相處，聆聽內在律動節奏中重新整合行動力。</p>
             </div>
@@ -83,6 +83,28 @@
                 $(".nav-ul").slideToggle(1000);
             })
         })
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({ 
+            // ─── 全域設定 ─── 
+            disable: false, // 何時停用 AOS：可填 'phone' / 'tablet' / 'mobile'，或直接給布林值、表達式、函式 
+            startEvent: 'DOMContentLoaded',// AOS 什麼事件被觸發時才開始初始化 
+            initClassName: 'aos-init', // 元素在初始化完成後會先加上的類名 
+            animatedClassName: 'aos-animate', // 動畫正式啟動時套用的類名 
+            useClassNames: false, // 若設為 true，會把 `data-aos` 的值做為類名，在滾動時一併加上 
+            disableMutationObserver: false,// 是否關閉 MutationObserver 自動偵測 DOM 變動（進階） 
+            debounceDelay: 50, // 視窗尺寸改變時的 debounce 間隔（毫秒） 
+            throttleDelay: 99, // 滾動事件的throttle 間隔（毫秒） 
+            // ─── 可用 `data-aos-*` 覆寫的項目 ─── 
+            offset: 120, // 觸發動畫時，元素與視窗的距離（px）120~150 
+            delay: 0, // 動畫延遲 0–3000 ms，步進 50 ms （最好不要下）
+            duration: 800, // 動畫時長 0–3000 ms，步進 50 ms 可調整成400~800（0.4~0.8秒）
+            easing: 'ease', // 動畫預設 easing 函式 
+            once: false, // true 表示動畫只在第一次向下滾動時播放 （動畫只跑一次false  往上再往下滾動時重新動畫一次true）
+            mirror: true, // true 表示滾過元素後向上滑回可再次播放（鏡像效果） 
+            anchorPlacement: 'top-bottom', // 判定元素相對視窗的位置來觸發動畫，例如 'top-bottom' 代表元素頂端到視窗底端 
+            }); 
     </script>
 </body>
 </html>

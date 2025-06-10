@@ -36,7 +36,7 @@
         <section class="classOrderSectionOne">
             <h1>課程資訊</h1>
             <hr>
-            <div class="sectionOneContent">
+            <div class="sectionOneContent" data-aos="fade-left">
                 <span><a href="introduce2.html">動中覺察課程</a></span>
                 <br>
                 <span>『改善。我。』_第二單元</span>
@@ -53,10 +53,10 @@
                     <p>課程日期：2025/2/8-2025/6/14 (共15堂課)</p>
                     <p>(2025/3/1、2025/4/5、2025/5/3、2025/5/31停課)</p>
                     <hr>
-                    <p>點擊 <a href="https://forms.gle/RjixhSJdJQ2rXmWm8" target="_blank">立即報名</a></p>
+                    <p>點擊 <a data-aos="fade-left" href="https://forms.gle/RjixhSJdJQ2rXmWm8" target="_blank">立即報名</a></p>
                 </div>
             </div>
-            <div class="sectionOneContent">
+            <div class="sectionOneContent" data-aos="fade-left">
                 <span><a href="introduce3.html">費登奎斯式瑜珈</a></span>
                 <br>
                 <br>
@@ -76,7 +76,7 @@
                     <hr>
                 </div>
             </div>
-            <div class="sectionOneContent">
+            <div class="sectionOneContent" data-aos="fade-left">
                 <span><a href="#">台中_動中覺察工作坊</a></span>
                 <br>
                 <br>
@@ -139,11 +139,11 @@
                     <td class="dataContent"></td>
                 </tr>
             </table>
-            <div class="personal">
+            <div class="personal" data-aos="fade-left">
                 <p>｜個人課程｜</p>
                 <span>包含功能整合或動中覺察或瑜珈課程，視個別身心狀況的需求，欲改善方向與自我探索的量身訂做。</span>
             </div>
-            <div class="orderTime">
+            <div class="orderTime" data-aos="fade-left">
                 <p>｜底色 開放預約時段｜</p>
                 <span>早上：10:30-12:00</span>
                 <span>下午：13:30-15:00；15:00-16:30；16:30-18:00</span>
@@ -186,6 +186,28 @@
                 $(".nav-ul").slideToggle(1000)
             })
         })
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({ 
+            // ─── 全域設定 ─── 
+            disable: false, // 何時停用 AOS：可填 'phone' / 'tablet' / 'mobile'，或直接給布林值、表達式、函式 
+            startEvent: 'DOMContentLoaded',// AOS 什麼事件被觸發時才開始初始化 
+            initClassName: 'aos-init', // 元素在初始化完成後會先加上的類名 
+            animatedClassName: 'aos-animate', // 動畫正式啟動時套用的類名 
+            useClassNames: false, // 若設為 true，會把 `data-aos` 的值做為類名，在滾動時一併加上 
+            disableMutationObserver: false,// 是否關閉 MutationObserver 自動偵測 DOM 變動（進階） 
+            debounceDelay: 50, // 視窗尺寸改變時的 debounce 間隔（毫秒） 
+            throttleDelay: 99, // 滾動事件的throttle 間隔（毫秒） 
+            // ─── 可用 `data-aos-*` 覆寫的項目 ─── 
+            offset: 120, // 觸發動畫時，元素與視窗的距離（px）120~150 
+            delay: 0, // 動畫延遲 0–3000 ms，步進 50 ms （最好不要下）
+            duration: 800, // 動畫時長 0–3000 ms，步進 50 ms 可調整成400~800（0.4~0.8秒）
+            easing: 'ease', // 動畫預設 easing 函式 
+            once: false, // true 表示動畫只在第一次向下滾動時播放 （動畫只跑一次false  往上再往下滾動時重新動畫一次true）
+            mirror: true, // true 表示滾過元素後向上滑回可再次播放（鏡像效果） 
+            anchorPlacement: 'top-bottom', // 判定元素相對視窗的位置來觸發動畫，例如 'top-bottom' 代表元素頂端到視窗底端 
+            }); 
     </script>
 </body>
 </html>

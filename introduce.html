@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-phone-100 row">
                     <div class="col-phone-60 col-phone2-57 col-tablet-57 col-desktop-55"></div>
-                    <div class="col-phone-30">
+                    <div class="col-phone-30" data-aos="fade-left">
                         <h2>功能整合</h2>
                         <p>專為個人量身訂做的一對一課程。</p>
                     </div>
@@ -55,11 +55,11 @@
             </div>
         </section>
         <section class="introduceSectionThree">
-            <div class="imgPBox">
+            <div class="imgPBox" data-aos="fade-left">
                 <img src="images/開頭小框.png" alt="開頭小框">
                 <p>最原初的費登奎斯身心教育的模式，費登奎斯博士從自身的膝蓋修復過程中，逐漸發展出一套讓人可以更健康的方式。<br>早期如同他自己的敘述：『...我開始和自己一起工作，並沒有區分一對一操作性的「功能整合(Functional Integration，簡稱「FI」 及團體工作方式的「動中覺察(Awareness Through Movement，簡稱「ATM」...將之混在一起。』，但由於後來學生日多，無法以一對一的方式來幫學生上課，才逐漸發展出運用口語教導的形式的「動中覺察課程」。<br><br>費登奎斯方法<br>是屬於經驗法則的學習歷程，如同藝術般難以用言語傳達及形容，費登奎斯博士理解到，言語雖是人類溝通最主要的工具，但也因傳達者與接收者的背景與詮釋的不同，易造成誤解及其限制。基於身心是一體性，在不可分割的概念裡，是運用「功能整合 (FI) 」&「動中覺察 (ATM) 」兩種不同的面向和形式，經驗心理層面與身體層面的交織連結，就像銅板一體兩面般的方法來幫助人學習並改善身心狀況。<br><br>功能整合課程<br> (尤其是初期的課程)，老師以溫和、不強迫侵入性、不費力、受過嚴格訓練的碰觸品質，運用動覺 ( kinesthetic sense ) 與觸覺等非語言的帶領動作為主，而語言引導為輔，讓學生依據學習進展與當時狀況，來接收被動式的學習歷程。<br><br>在舒適安全的環境中，在經過訪談學生主述的身心狀況，可能是身心上的疾病、失能、疼痛、困擾或更進一步認識自己等需求之後，老師會「以手碰觸」的形式提供動作上的建議，及傾聽學生當下的需要與能力。<br>老師與學生的一同在動作中共舞，以不強迫、有機的動作學習方式，引導學生進行被動式的察覺，探索自我本身的動作慣性。幫助學生經驗改變慣性過程，尋找當下最適合自己的動作模式，進而激發動作的潛能具有更多選擇性。<br>功能整合帶來的效益是，改善疼痛與日常行動力、提升各種動作的能力、改變自我意象、增加自我幸福感、培養與外在環境更佳的身心協和關係。</p>
             </div>
-            <div class="imgPBox">
+            <div class="imgPBox" data-aos="fade-left">
                 <img src="images/開頭小框.png" alt="開頭小框">
                 <p>【注意事項】<br><br>1）請經由上述的課程介紹，主述上課的意圖，也許與目前的身心狀況或疾病有關、對身體的認識或探索。<br>2）課程通常在特別為此課程設計的Feldenkrais摺疊桌(床)上進行，以仰臥、側躺、趴臥、或坐姿或站姿等等，依當天實際上課狀況來決定要如何進行。<br>3）著方便動作之服裝，盡量選擇寬鬆有彈性的舒服衣褲，女生請著運動內衣，避免鋼圈胸罩。</p>
             </div>
@@ -87,6 +87,28 @@
                 $(".nav-ul").slideToggle(1000);
             })
         })
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init({ 
+            // ─── 全域設定 ─── 
+            disable: false, // 何時停用 AOS：可填 'phone' / 'tablet' / 'mobile'，或直接給布林值、表達式、函式 
+            startEvent: 'DOMContentLoaded',// AOS 什麼事件被觸發時才開始初始化 
+            initClassName: 'aos-init', // 元素在初始化完成後會先加上的類名 
+            animatedClassName: 'aos-animate', // 動畫正式啟動時套用的類名 
+            useClassNames: false, // 若設為 true，會把 `data-aos` 的值做為類名，在滾動時一併加上 
+            disableMutationObserver: false,// 是否關閉 MutationObserver 自動偵測 DOM 變動（進階） 
+            debounceDelay: 50, // 視窗尺寸改變時的 debounce 間隔（毫秒） 
+            throttleDelay: 99, // 滾動事件的throttle 間隔（毫秒） 
+            // ─── 可用 `data-aos-*` 覆寫的項目 ─── 
+            offset: 120, // 觸發動畫時，元素與視窗的距離（px）120~150 
+            delay: 0, // 動畫延遲 0–3000 ms，步進 50 ms （最好不要下）
+            duration: 800, // 動畫時長 0–3000 ms，步進 50 ms 可調整成400~800（0.4~0.8秒）
+            easing: 'ease', // 動畫預設 easing 函式 
+            once: false, // true 表示動畫只在第一次向下滾動時播放 （動畫只跑一次false  往上再往下滾動時重新動畫一次true）
+            mirror: true, // true 表示滾過元素後向上滑回可再次播放（鏡像效果） 
+            anchorPlacement: 'top-bottom', // 判定元素相對視窗的位置來觸發動畫，例如 'top-bottom' 代表元素頂端到視窗底端 
+            }); 
     </script>
 </body>
 </html>

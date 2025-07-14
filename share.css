@@ -54,6 +54,7 @@
 }
 .sectionTwo .row{
     margin-bottom: 10px;
+    position: relative;
 }
 .sectionTwo .row .fourTitle{
     position: sticky;

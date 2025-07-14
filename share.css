@@ -37,6 +37,7 @@
     padding-top: 30px;
     overflow-x: hidden;
     height: 1500px;
+    max-width: 992px;
 }
 .sectionTwo .sectionTwo1{
     border-left: 3px solid rgb(182,182,182);

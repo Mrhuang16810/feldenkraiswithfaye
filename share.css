@@ -2,10 +2,11 @@
     z-index: 10;
     line-height: 0;
     width: 100%;
-    padding-top: 2px;
+    margin-top: -30px;
     padding-bottom: 2px;
     display: flex;
     position: fixed;
+    top: 60px;
     background-color: #fff;
 }
 .sectionOne .btnContainer{
@@ -33,7 +34,8 @@
     margin: 0;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 34px;
+    padding-top: 50px;
+    overflow-x: hidden;
 }
 .sectionTwo .sectionTwo1{
     border-left: 3px solid rgb(182,182,182);
@@ -134,7 +136,7 @@
     .sectionOne{
         position: fixed;
         width: 100%;
-        padding-top: 3px;
+        margin-top: -20px;
         padding-bottom: 3px;
         background-color: #fff;
     }
@@ -144,11 +146,11 @@
         padding: 2.5px;
     }
     .sectionTwo{
-        padding-top: 40px;
+        padding-top: 60px;
         margin: 0;
     }
     .sectionTwo .row .boxFlex{
-        padding-left: 0px;
+        padding-left: 10px;
     }
     .sectionTwo .row .fourTitle{
         position: sticky;
@@ -189,7 +191,7 @@
     .sectionOne{
         position: fixed;
         width: 100%;
-        padding-top: 5px;
+        margin-top: -6px;
         padding-bottom: 5px;
         background-color: #fff;
     }
@@ -202,7 +204,7 @@
         margin: 0;
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 30px;
+        padding-top: 110px;
     }
     .sectionTwo .row .fourTitle{
         font-size: 8px;
@@ -248,7 +250,7 @@
     .sectionOne{
         position: fixed;
         width: 100%;
-        padding-top: 5px;
+        margin-top: 0;
         padding-bottom: 5px;
         background-color: #fff;
     }
@@ -261,7 +263,7 @@
         margin: 0;
         padding-left: 25px;
         padding-right: 25px;
-        padding-top: 35px;
+        padding-top: 120px;
     }
     .sectionTwo .row .fourTitle{
         font-size: 11px;
@@ -305,6 +307,9 @@
     }
 }
 @media(min-width:810px){
+    .sectionTwo{
+        padding-top: 100px;
+    }
     .sectionTwo .row .fourTitle{
         top: 112px;
     }
@@ -328,7 +333,6 @@
     }
     .sectionTwo{
         margin: 0px;
-        padding-top: 40px;
         padding-left: 25px;
         padding-right: 25px;
     }

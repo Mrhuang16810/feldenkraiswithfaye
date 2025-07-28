@@ -122,6 +122,12 @@
     margin-bottom: 0;
     font-weight: 900;
 }
+.sectionTwo .row .col-phone-65 .articleBox .article a,.sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
 .sectionTwo .row .col-phone-65 .articleBox .article span,
 .sectionTwo .row .col-phone-65 .articleBox .allArticle p span,
 .sectionTwo .row .col-phone-65 .articleLeftBox .articleLeft span,

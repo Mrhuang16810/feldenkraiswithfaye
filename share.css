@@ -158,7 +158,21 @@
         /* padding-top: 20px;
         margin: 0;
         height: 1500px; */
-    
+    .sectionTwo1{
+        border-left: 2px solid rgb(182,182,182);
+    }
+    .sectionTwo2{
+        padding-top: 25px;
+        border-left: 2px solid rgb(182,182,182);
+    }
+    .sectionTwo3{
+        padding-top: 25px;
+        border-left: 2px solid rgb(182,182,182);
+    }
+    .sectionTwo4{
+        padding-top: 25px;
+        border-left: 2px solid rgb(182,182,182);
+    }
     .row .boxFlex{
         padding-left: 10px;
     }
@@ -217,7 +231,21 @@
         padding-right: 20px;
         padding-top: 20px;
         height: 1500px; */
-    
+    .sectionTwo1{
+        border-left: 3px solid rgb(182,182,182);
+    }
+    .sectionTwo2{
+        padding-top: 25px;
+        border-left: 3px solid rgb(182,182,182);
+    }
+    .sectionTwo3{
+        padding-top: 25px;
+        border-left: 3px solid rgb(182,182,182);
+    }
+    .sectionTwo4{
+        padding-top: 25px;
+        border-left: 3px solid rgb(182,182,182);
+    }
     .row .fourTitle{
         font-size: 8px;
         position: sticky;
@@ -278,7 +306,21 @@
         padding-right: 25px;
         padding-top: 25px;
         height: 1500px; */
-    
+    .sectionTwo1{
+        border-left: 4px solid rgb(182,182,182);
+    }
+    .sectionTwo2{
+        padding-top: 25px;
+        border-left: 4px solid rgb(182,182,182);
+    }
+    .sectionTwo3{
+        padding-top: 25px;
+        border-left: 4px solid rgb(182,182,182);
+    }
+    .sectionTwo4{
+        padding-top: 25px;
+        border-left: 4px solid rgb(182,182,182);
+    }
     .row .fourTitle{
         font-size: 11px;
         position: sticky;
@@ -325,7 +367,21 @@
     
         /* padding-top: 25px;
         height: 1500px; */
-    
+    .sectionTwo1{
+        border-left: 4px solid rgb(182,182,182);
+    }
+    .sectionTwo2{
+        padding-top: 25px;
+        border-left: 4px solid rgb(182,182,182);
+    }
+    .sectionTwo3{
+        padding-top: 25px;
+        border-left: 4px solid rgb(182,182,182);
+    }
+    .sectionTwo4{
+        padding-top: 25px;
+        border-left: 4px solid rgb(182,182,182);
+    }
     .row .fourTitle{
         top: 30px;
     }
@@ -352,7 +408,21 @@
         padding-left: 25px;
         padding-right: 25px;
         height: 1500px; */
-    
+    .sectionTwo1{
+        border-left: 5px solid rgb(182,182,182);
+    }
+    .sectionTwo2{
+        padding-top: 25px;
+        border-left: 5px solid rgb(182,182,182);
+    }
+    .sectionTwo3{
+        padding-top: 25px;
+        border-left: 5px solid rgb(182,182,182);
+    }
+    .sectionTwo4{
+        padding-top: 25px;
+        border-left: 5px solid rgb(182,182,182);
+    }
     .row .fourTitle{
         font-size: 13px;
         position: sticky;

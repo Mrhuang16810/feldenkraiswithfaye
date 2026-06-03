@@ -148,20 +148,14 @@
         letter-spacing: 1.5px;
         padding: 2.5px;
     }
-    .sectionTwo1{
-        border-left: 2px solid rgb(182,182,182);
-    }
     .sectionTwo2{
         padding-top: 25px;
-        border-left: 2px solid rgb(182,182,182);
     }
     .sectionTwo3{
         padding-top: 25px;
-        border-left: 2px solid rgb(182,182,182);
     }
     .sectionTwo4{
         padding-top: 25px;
-        border-left: 2px solid rgb(182,182,182);
     }
     .row .boxFlex{
         padding-left: 10px;
@@ -215,20 +209,14 @@
         letter-spacing: 2.5px;
         padding: 4px;
     }
-    .sectionTwo1{
-        border-left: 3px solid rgb(182,182,182);
-    }
     .sectionTwo2{
         padding-top: 25px;
-        border-left: 3px solid rgb(182,182,182);
     }
     .sectionTwo3{
         padding-top: 25px;
-        border-left: 3px solid rgb(182,182,182);
     }
     .sectionTwo4{
         padding-top: 25px;
-        border-left: 3px solid rgb(182,182,182);
     }
     .row .fourTitle{
         font-size: 8px;
@@ -284,20 +272,14 @@
         letter-spacing: 3px;
         padding: 4.5px;
     }
-    .sectionTwo1{
-        border-left: 4px solid rgb(182,182,182);
-    }
     .sectionTwo2{
         padding-top: 25px;
-        border-left: 4px solid rgb(182,182,182);
     }
     .sectionTwo3{
         padding-top: 25px;
-        border-left: 4px solid rgb(182,182,182);
     }
     .sectionTwo4{
         padding-top: 25px;
-        border-left: 4px solid rgb(182,182,182);
     }
     .row .fourTitle{
         font-size: 11px;
@@ -342,20 +324,14 @@
     }
 }
 @media(min-width:810px){
-    .sectionTwo1{
-        border-left: 4px solid rgb(182,182,182);
-    }
     .sectionTwo2{
         padding-top: 25px;
-        border-left: 4px solid rgb(182,182,182);
     }
     .sectionTwo3{
         padding-top: 25px;
-        border-left: 4px solid rgb(182,182,182);
     }
     .sectionTwo4{
         padding-top: 25px;
-        border-left: 4px solid rgb(182,182,182);
     }
     .row .fourTitle{
         top: 30px;
@@ -378,20 +354,14 @@
         letter-spacing: 4px;
         padding: 5.5px;
     }
-    .sectionTwo1{
-        border-left: 5px solid rgb(182,182,182);
-    }
     .sectionTwo2{
         padding-top: 25px;
-        border-left: 5px solid rgb(182,182,182);
     }
     .sectionTwo3{
         padding-top: 25px;
-        border-left: 5px solid rgb(182,182,182);
     }
     .sectionTwo4{
         padding-top: 25px;
-        border-left: 5px solid rgb(182,182,182);
     }
     .row .fourTitle{
         font-size: 13px;
